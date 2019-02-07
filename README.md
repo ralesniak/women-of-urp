@@ -4,6 +4,20 @@ This repo will house all files related to our Date with Data series and our Skil
 
 ## Archive of Skills Resources from Newsletter
 * [Microsoft Office](#microsoft-office)
+* [ArcGIS](#arcgis)
+
+### ArcGIS
+*(April 13, 2018)*
+I find ArcGIS both exciting and overwhelming. These are three skills I’ve learned in the past year that immediately improved my maps.
+Beginner - [Joining Census Data to Shapefiles](http://spatial.scholarslab.org/stepbystep/joining-census-data-tables-to-shapefiles-in-arcmap/): This is an essential skill. If you don't know how to do this, bookmark this page. 
+
+Novice - [Maplex Labeling Engine](http://desktop.arcgis.com/en/arcmap/10.5/map/working-with-text/introduction-to-the-maplex-tutorial.htm): Sometimes, labels in ArcGIS look perfect as-is. Most of the time... not so much. Maplex Labeling Engine is your new best friend. 
+
+Intermediate - [Data Driven Pages](http://desktop.arcgis.com/en/arcmap/10.5/map/page-layouts/what-are-data-driven-pages-.htm): This game-changing tool makes maps of multiple areas without duplicating your map files or layers. 
+
+[Here's](http://stip.wemovedc.org/wp-content/uploads/STIP_OpenHouse_Boards_2017-10-02.pdf) an example of how I've used data-driven pages at work. I made DC ward maps and only showed features that were in the wards. The labeling was done using the Maplex engine. (Scroll to page 3 in this large-ish PDF, sorry!)
+
+Bonus: If you’ve already graduated and can’t renew your ArcGIS student license, try the open-source version called [QGIS](https://www.qgis.org/en/site/).
 
 
 ### Microsoft Office 
