@@ -82,6 +82,7 @@ R: My post-thesis to-do list includes learning R, which is used for statistics a
 *(April 13, 2018)*
 
 I find ArcGIS both exciting and overwhelming. These are three skills I’ve learned in the past year that immediately improved my maps.
+
 Beginner - [Joining Census Data to Shapefiles](http://spatial.scholarslab.org/stepbystep/joining-census-data-tables-to-shapefiles-in-arcmap/): This is an essential skill. If you don't know how to do this, bookmark this page. 
 
 Novice - [Maplex Labeling Engine](http://desktop.arcgis.com/en/arcmap/10.5/map/working-with-text/introduction-to-the-maplex-tutorial.htm): Sometimes, labels in ArcGIS look perfect as-is. Most of the time... not so much. Maplex Labeling Engine is your new best friend. 
@@ -99,7 +100,7 @@ Bonus: If you’ve already graduated and can’t renew your ArcGIS student licen
 I am passionate about learning new skills that make us capable women, driven to soak up knowledge rather than relying on (sometimes sub-par) on-the-job training or limited university teaching. I'm hoping that I can help find resources for lots of skills that might be needed in our planning or planning-adjacent careers and share them in the newsletter and in person. For this newsletter, I've found four Lynda tutorials that give new skills or enhance existing ones in Microsoft Office, which is software no one can escape! On deck for the next newsletter: ArcGIS.
 
 
-Using your Georgetown ID, you can download [Microsoft Office 365](https://georgetown.onthehub.com/WebStore/Welcome.aspx) for free and access Lynda.com
+Using your Georgetown ID, you can download [Microsoft Office 365](https://georgetown.onthehub.com/WebStore/Welcome.aspx) for free and access [Lynda.com](https://www.library.georgetown.edu/lynda).
 
 [Microsoft Word: Long Documents](https://www.lynda.com/Office-tutorials/Word-2013-Creating-Long-Documents/167073-2.html?org=georgetown.edu) If you're going to make a 100+ page planning document, you'll definitely need to know how to make cross-references, table of contents, and section breaks.
 
