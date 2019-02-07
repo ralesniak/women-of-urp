@@ -1,8 +1,13 @@
 # women-of-urp
 
-## Archive of Skills Resources from Newsletter
+This repo will house all files related to our Date with Data series and our Skills Resources section of the newsletter
 
-### Microsoft Office (March 16, 2018)
+## Archive of Skills Resources from Newsletter
+* [Microsoft Office](#microsoft-office)
+
+
+### Microsoft Office 
+*(March 16, 2018)*
 
 I am passionate about learning new skills that make us capable women, driven to soak up knowledge rather than relying on (sometimes sub-par) on-the-job training or limited university teaching. I'm hoping that I can help find resources for lots of skills that might be needed in our planning or planning-adjacent careers and share them in the newsletter and in person. For this newsletter, I've found four Lynda tutorials that give new skills or enhance existing ones in Microsoft Office, which is software no one can escape! On deck for the next newsletter: ArcGIS.
 
