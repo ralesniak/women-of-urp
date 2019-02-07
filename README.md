@@ -11,6 +11,7 @@ This repo will house all files related to our Date with Data series and our Skil
 
 ### Taking the AICP Exam
 *(June 15, 2018) from Ari Koudounas*
+
 Last month I took and passed the certification exam with the American Institute of Certified Planners (AICP). To help pay forward the valuable information shared with me as I prepared  for the exam, here are a few guiding lights as you consider if/when/how to take it yourself: 
 
 * [Basic Information I wish I knew earlier than I did](https://www.planning.org/certification/bulletin/): there are requirements based on your level of education/work experience. Check out the exam guide linked in the title to see where you fall. I needed three years of experience in my case and fortunately could count a lot of work experience I had prior to acquiring my planning degree that was allowed to count towards it. For those of you still in school, keep in mind that internships can also count towards this experience total. 
@@ -33,8 +34,6 @@ Free online resources to get you started:
 ### Presenting Skills
 *(May 25, 2018)*
 
-I’m writing this a week after my thesis presentation so I still have presenting on the brain!
-
 Visual: 
 
 [Better Presentations by Jon Schwabish](http://www.jstor.org.proxy.library.georgetown.edu/stable/10.7312/schw17520): If you follow this, your presentations really will be better. I took the idea of “layering” to heart and it made really heavy data sections super clear. It’s available as an eBook through the GU Library -- but alums should pony up the money anyway
@@ -49,6 +48,7 @@ This [post on pacing](https://medium.com/@speakerhubHQ/your-speech-pace-guide-to
 
 ### Writing Skills
 *(May 11, 2018)*
+
 Writing feels like a skill you should already have from your 20+ years of schooling -- yet, writing well is rare, and it takes being uncomfortable to grow at it.
 
 #### Academic Writing
@@ -69,6 +69,7 @@ Improve your emails: I like a lot of the concepts [in this blog post](https://hb
 
 ### Software to Learn
 *(April 27, 2018)*
+
 Looking for something *brand new* to learn this summer? Try one of these software programs:
 
 Tableau: Tableau is a data exploration and visualization tool, and it offers a [free student license](https://www.tableau.com/academic/students). The software is easy to use and infinite in its possibilities. Read [Tableau's blog post](https://www.tableau.com/about/blog/2017/8/3-steps-make-most-your-free-student-license-75791) to get started with your free license. You can also use [Tableau Public](https://public.tableau.com/en-us/s/) to create dashboards in your browser - no license needed!
@@ -79,6 +80,7 @@ R: My post-thesis to-do list includes learning R, which is used for statistics a
 
 ### ArcGIS
 *(April 13, 2018)*
+
 I find ArcGIS both exciting and overwhelming. These are three skills I’ve learned in the past year that immediately improved my maps.
 Beginner - [Joining Census Data to Shapefiles](http://spatial.scholarslab.org/stepbystep/joining-census-data-tables-to-shapefiles-in-arcmap/): This is an essential skill. If you don't know how to do this, bookmark this page. 
 
