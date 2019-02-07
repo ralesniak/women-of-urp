@@ -3,27 +3,30 @@
 This repo will house all files related to our Date with Data series and our Skills Resources section of the newsletter
 
 ## Archive of Skills Resources from Newsletter
+* [Coding/Data Science](#coding/data-science)
+* [General Data Skills](#general-data-skills)
 * [Taking the AICP Exam](#taking-the-aicp-exam)
 * [Writing Skills](#writing-skills)
 * [Software to Learn](#software-to-learn)
 * [ArcGIS](#arcgis)
 * [Microsoft Office](#microsoft-office)
 
-### Coding
+### Coding/Data Science
 *(October 19, 2018)*
+
 I can’t stop talking about coding! Even out for drinks a couple of weeks ago, all I could do was gush about the progress I made in R. I strongly recommend giving it a shot even if you have no expectation to become an expert or jump into a data analyst role. 
 
-Why code? Hadley Wickham, a big name in R, gives a talk about [why all statistics students should learn to program](https://speakerdeck.com/hadley/should-all-statistics-students-be-programmers) -- but not be programmers. I think it should be extended - if you work with data, you should learn enough programming to make your life easier. [Here’s a video](https://www.youtube.com/watch?v=cpbtcsGE0OA) of a similar talk about why data science is best coded, not point-and-click.
+* Why code? Hadley Wickham, a big name in R, gives a talk about [why all statistics students should learn to program](https://speakerdeck.com/hadley/should-all-statistics-students-be-programmers) -- but not be programmers. I think it should be extended - if you work with data, you should learn enough programming to make your life easier. [Here’s a video](https://www.youtube.com/watch?v=cpbtcsGE0OA) of a similar talk about why data science is best coded, not point-and-click.
 
-Why learn R? R was built for statisticians and has evolved into an easy-to- approach language that even the humanities uses. You can have literally no training in computer science and succeed using R. R makes it easy to do data analysis necessary for all fields of urban planning. You can even do spatial analyses using shapefiles! The introduction I recommend most is [R for Data Science](http://r4ds.had.co.nz/).
+* Why learn R? R was built for statisticians and has evolved into an easy-to-approach language that even the humanities uses. You can have literally no training in computer science and succeed using R. R makes it easy to do data analysis necessary for all fields of urban planning. You can even do spatial analyses using shapefiles! The introduction I recommend most is [R for Data Science](http://r4ds.had.co.nz/).
 
-Why learn Python? - Python can do a lot of what R does, but its goal is often creating tools over doing analysis. Additionally, Python is the language needed to do advanced ArcGIS work. I haven’t delved into Python yet, but when I do, I’m very interested in [Automate the Boring Stuff](https://automatetheboringstuff.com/), a web-book chock full of practical ways to use Python to speed up, well, the boring stuff of using a computer. 
+* Why learn Python? - Python can do a lot of what R does, but its goal is often creating tools over doing analysis. Additionally, Python is the language needed to do advanced ArcGIS work. I haven’t delved into Python yet, but when I do, I’m very interested in [Automate the Boring Stuff](https://automatetheboringstuff.com/), a web-book chock full of practical ways to use Python to speed up, well, the boring stuff of using a computer. 
 
-Why not use VBA? Visual Basic (or macros in Excel) is essential for using the most advanced features in Excel. But because it only lives in Excel, it’s less flexible than R, Python, or other data analysis languages. Learning R or Python allows you to work with Excel spreadsheets and other data sources, like shapefiles and web connections (APIs). Additionally, Excel has a size limit that makes it very aggravating to use… it’s actually a primary reason I started to learn R!
+* Why not use VBA? Visual Basic (or macros in Excel) is essential for using the most advanced features in Excel. But because it only lives in Excel, it’s less flexible than R, Python, or other data analysis languages. Learning R or Python allows you to work with Excel spreadsheets and other data sources, like shapefiles and web connections (APIs). Additionally, Excel has a size limit that makes it very aggravating to use… it’s actually a primary reason I started to learn R!
 
-Why not use C++/Java/HTML/CSS/etc.? These languages have their uses, but if you’re learning them, you’re probably not doing urban planning work. If you want to be a software developer or web designer, these are essential!
+* Why not use C++/Java/HTML/CSS/etc.? These languages have their uses, but if you’re learning them, you’re probably not doing urban planning work. If you want to be a software developer or web designer, these are essential!
 
-How do I get started? - Watch the videos! Read those books! Join Data Camp and pick a track! [Follow](https://twitter.com/BecomingDataSci) [some](https://twitter.com/dataandme) [wonderful](https://twitter.com/JennyBryan) [women](https://twitter.com/juliasilge) [on](https://twitter.com/minebocek) [Twitter](https://twitter.com/sharlagelfand)! Find the data science meetups available in DC. When you come across something you’re interested but don’t understand yet, bookmark it. Google your questions! Most importantly, download R Studio or Anaconda and start typing!
+* How do I get started? - Watch the videos! Read those books! Join Data Camp and pick a track! [Follow](https://twitter.com/BecomingDataSci) [some](https://twitter.com/dataandme) [wonderful](https://twitter.com/JennyBryan) [women](https://twitter.com/juliasilge) [on](https://twitter.com/minebocek) [Twitter](https://twitter.com/sharlagelfand)! Find the data science meetups available in DC. When you come across something you’re interested but don’t understand yet, bookmark it. Google your questions! Most importantly, download R Studio or Anaconda and start typing!
 
 ### General Data Skills
 *(October 5, 2018)*
