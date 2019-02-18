@@ -30,7 +30,7 @@ Slides are saved in this GitHub repro (see above, named `intro_to_r_slides.html`
 - `readxl` - import Excel files
 - `ggplot2` - create charts/graphs
 - `tidycensus` - quickly download Census data (love this)
-- `sf` - spatial analysis
+- `sf` - spatial analysis (and bookmark this helpful ArcMap-to-R table <https://github.com/daranzolin/ArcMap-to-R>)
 - `tigris` - quickly download TIGER shapefiles
 - More advanced `tidyverse` packages: <https://www.tidyverse.org/packages/> 
 - `rmarkdown` - make reports and presentations in R
