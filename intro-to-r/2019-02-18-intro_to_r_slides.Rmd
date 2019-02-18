@@ -1,0 +1,260 @@
+---
+title: "Introduction to R"
+author: "Rachel Lesniak"
+date: "February 18, 2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## What is data science?
+
+"Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge."
+
+1. Capture data
+2. Maintain data
+3. Process data
+4. Analyze data
+5. Communicate data
+
+Engineers do the first two steps (capture and maintain). **Don't worry about those.**
+
+Statisticians do the third step (process). **Don't worry about this.**
+
+Analysts do steps four and five (analyze and communicate). *You are already doing this!*
+
+## What is code/programming?
+
+- Data science heavily focuses on code.
+- If you type in directions into your computer, you are coding.
+    - Yes, even in Excel!
+- If you are writing multiple steps of code, you are programming.
+- People are use these interchangeably - you can too.
+
+## Why code or program?
+
+- Code is text
+    - copy and paste!!
+- Code is read-able
+    - read your code days, weeks, months later
+    - check your work/someone else's work
+    - understand unfamiliar processes
+- Code is share-able
+    - put it on GitHub, someone can use your work
+    - learn from others' work
+- Code is open
+    - FREE (which means inclusive)
+
+## Why on earth would we use this for planning?
+
+- You are around more data than you think
+- Speed up repetitive processes
+    - I literally received 112 Excel files this week
+- Spreadsheets have limitations
+- Not all data lives in spreadsheets
+
+## Pep Talk
+
+- This is a skill you can tackle.
+- You do not need to be a genius to get it.
+- You do not need to struggle on your own.
+- Today, let's have the confidence of a mediocre white man.
+
+## What is R?
+
+- Doesn't stand for anything
+- Language
+- "Environment" or system
+- First built for statistics
+- Install packages to extend R
+
+## Why use R over other options?
+
+- Easy to install (unlike Python)
+- Easy to install packages (unlike Python)
+- Easy to keep updated (unlike Python)
+- Language is easy to read
+- Great at building charts and graphs
+- **R has a fantastic community for women.**
+
+## Installing R
+
+- We're downloading the R system
+- Download here: <https://cloud.r-project.org/>
+- Follow the defaults
+
+## Installing R Studio Desktop
+
+- We're downloading software that makes R easy to use.
+- Download here: <https://www.rstudio.com/products/rstudio/download/#download>
+
+## R Studio Layout
+
+![From http://dev1.ed-projects.nyu.edu/statistics/r-studio/](http://dev1.ed-projects.nyu.edu/statistics/wp-content/uploads/2014/04/layout.jpg)
+
+## Install `tidyverse`
+- Packages are installed from CRAN (where you downloaded R)
+- Documentation is available on CRAN and GitHub
+    - The GitHub documentation is almost always better
+    - Might be called "vignettes" or "READMEs"
+- `tidyverse` is a package of multiple packages
+- we are using `readr` and `dplyr` today
+
+```{r install, eval = FALSE, echo = TRUE}
+install.packages("tidyverse")
+```
+
+## Load `tidyverse`
+
+```{r import, echo = TRUE}
+library(tidyverse)
+```
+- You can also use `library()` to see all of your installed packages
+
+## Find our working directory
+
+```{r getwd, echo = TRUE}
+getwd()
+```
+- Working directory can (and should) be changed with each project
+- We're not going to get into this today
+- Learn more here later
+
+## Download today's data
+- List of Certified Business Enterprises, or contracting businesses that get preferred opportunities from the DC Gov
+- Download from GitHub repo
+- Originally from OpenDataDC
+- Save where your working directory is
+
+## Import data
+- We'll use the `read_csv()` function
+- A function has a name and arguments
+- ? in front of a function opens a help window that explains the function and its arguments
+    - I use this constantly.
+- `<-` means "assign" or "create". The object name on the left becomes whatever is on the right side
+
+
+```{r help, eval = FALSE, echo = TRUE}
+?read_csv
+
+```
+
+```{r import_data, echo = TRUE}
+raw_data <- read_csv("Certified_Business_Enterprise.csv")
+```
+
+## Look at data, example 1
+- Many ways to look at data
+- Column Names
+- Column Types
+- Organization
+
+```{r view_data, echo = TRUE}
+raw_data
+
+```
+
+## Look at data, example 2
+
+```{r view_data2, echo = TRUE}
+head(raw_data)
+
+```
+
+
+### Look at data, example 3
+
+```{r view_data3, echo = TRUE}
+glimpse(raw_data)
+
+```
+
+## Analyze data
+- Sample analysis time!
+- Goal: count how many CBEs are in Ward 8 by year established and export
+- Uses functions from `dplyr`
+- It is okay if we don't get `through all of these
+- Saved on GitHub for later
+
+## Filter
+- Select just Ward 8
+- Uses two equal signs
+- `%>%` is called a pipe and is part of `tidyverse`
+    - Read it as "and then"
+```{r filter, echo = TRUE}
+sample_data <- raw_data %>%
+  filter(WARD == 8)
+
+head(sample_data)
+```
+
+## Arrange
+- Arrange A-Z or smallest to largest
+- `arrange(desc(BUSINESSNAME)) would be descending
+
+```{r arrange, echo = TRUE}
+sample_data_1 <- sample_data %>%
+  arrange(BUSINESSNAME)
+
+head(sample_data_1)
+```
+
+## Select
+- Select only the columns we want
+```{r select, echo = TRUE}
+sample_data_2 <- sample_data_1 %>%
+  select(BUSINESSNAME, PRINCIPALOWNER, DATEESTABLISHED)
+
+head(sample_data_2)
+```
+
+## Mutate
+- Add a new column
+- `substr()` lets you pick which characters you want (you don't have to understand this today)
+```{r mutate, echo = TRUE}
+sample_data_3 <- sample_data_2 %>%
+  mutate(year = substr(DATEESTABLISHED, 1, 4))
+
+head(sample_data_3)
+```
+
+## Group By and Summarize
+- Group By creates groups of rows with the same values
+- Summarize does whatever summary you want within the group
+```{r group_by, echo = TRUE}
+sample_data_4 <- sample_data_3 %>%
+  group_by(year) %>%
+  summarize(n())
+
+head(sample_data_4)
+```
+
+## Export data
+- Similar to `read_csv()`
+- First tell it which data frame you want
+- Then tell it the name of the file
+```{r export, echo = TRUE}
+write_csv(sample_data_4, "CBE_by_year.csv")
+```
+
+## Learn More:
+- R for Data Science book (free)
+    - <https://r4ds.had.co.nz/>
+- R for Reproducible Scientific Analysis (free)
+    - <https://swcarpentry.github.io/r-novice-gapminder/>
+- Data Camp (subscription)
+- \#rstats on Twitter
+- Watch screencasts on YouTube
+- Cheatsheets from RStudio (free reference)
+    - <https://www.rstudio.com/resources/cheatsheets/>
+
+## More packages to try out
+
+- `readxl` - import Excel files
+- `ggplot2` - create charts/graphs
+- `tidycensus` - quickly download Census data (love this)
+- `sf` - spatial analysis
+- `tigris` - quickly download TIGER shapefiles
+
