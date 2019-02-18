@@ -22,6 +22,8 @@ Slides are saved in this GitHub repro (see above, named `intro_to_r_slides.html`
     - David Robinson is great: <https://www.youtube.com/user/safe4democracy/videos>
 - Cheatsheets from RStudio (free reference)
     - <https://www.rstudio.com/resources/cheatsheets/>
+- R-Ladies DC Meetups: <https://www.meetup.com/rladies-dc/>
+- R-Ladies curated Twitter feed: <https://twitter.com/wearerladies>
 
 ### More packages to try out
 
