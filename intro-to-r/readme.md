@@ -9,24 +9,24 @@ Download the data from this GitHub repro: https://github.com/ralesniak/women-of-
 
 ## After the presentation
 
-Slides are saved in this GitHub repro (see above, named `intro_to_r_slides.html`)
+Slides are saved in this GitHub repro (see above, named `intro_to_r_slides.html` or pdf)
 
 ### Learn More:
-- R for Data Science book (free)
-    - <https://r4ds.had.co.nz/>
-- R for Reproducible Scientific Analysis (free)
-    - <https://swcarpentry.github.io/r-novice-gapminder/>
-- Data Camp
+- Data Camp (how Rachel learned)
     - Classes take about 3-4 hours each
     - Requires a $29/mo subscription
     - Some free classes <https://www.datacamp.com/community/open-courses>
     - Classes to prioritize at the beginning:
         - Introduction to the Tidyverse <https://www.datacamp.com/courses/introduction-to-the-tidyverse>
-        - Introduction to base R
-        - Importing Data into R
-        - Cleaning Data in R
-        - Importing & Cleaning Data in R: Case Studies
-        - Data Manipulation in R with dplyr
+        - Introduction to base R (free) <https://www.datacamp.com/courses/free-introduction-to-r>
+        - Importing Data into R <https://www.datacamp.com/courses/importing-data-in-r-part-1>
+        - Cleaning Data in R <https://www.datacamp.com/courses/cleaning-data-in-r> 
+        - Importing & Cleaning Data in R: Case Studies <https://www.datacamp.com/courses/importing-cleaning-data-in-r-case-studies>
+        - Data Manipulation in R with dplyr <https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial> 
+- R for Data Science book (free)
+    - <https://r4ds.had.co.nz/>
+- R for Reproducible Scientific Analysis (free)
+    - <https://swcarpentry.github.io/r-novice-gapminder/>
 - \#rstats on Twitter
 - Watch screencasts on YouTube
     - David Robinson is great: <https://www.youtube.com/user/safe4democracy/videos>
