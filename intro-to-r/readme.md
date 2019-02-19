@@ -1,9 +1,15 @@
 
 ## Links for February 18, 2019
 
-Download R: https://cloud.r-project.org/
+First, download R: https://cloud.r-project.org/
 
-Download RStudio: https://www.rstudio.com/products/rstudio/download/#download
+- Windows: choose Windows > base > Download R 3.x.x (whatever the version number is) for Windows
+- Mac OS X: choose Mac OS X > under "Latest Release", R-3.x.x.pkg (whatever the version number is)
+
+Second, download RStudio: https://www.rstudio.com/products/rstudio/download/#download
+- Download your OS version
+- Just click through all the defaults
+- You **don't** need to install Git but it's okay if you accidentally do.
 
 Download the data from this GitHub repro: https://github.com/ralesniak/women-of-urp/raw/master/intro-to-r/Certified_Business_Enterprise.csv
 
