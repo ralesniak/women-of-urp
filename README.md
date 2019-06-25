@@ -11,6 +11,23 @@ This repo will house all files related to our Date with Data series and our Skil
 * [ArcGIS](#arcgis)
 * [Microsoft Office](#microsoft-office)
 
+### Resumes and Cover Letters
+*(June 21, 2019)*
+
+Lots of my thoughts are inspired by Alison Green at AskaManager.org. Read her advice on [resumes](https://www.thecut.com/article/how-to-make-a-resume.html) and [cover letters](https://www.thecut.com/article/how-to-write-a-cover-letter.html). She also has a ton of [archives](https://www.askamanager.org/category/resumes) about [both](https://www.askamanager.org/category/cover-letters). 
+
+* **Resumes** should be a summary of your accomplishments - not your job duties. Employers are looking for the things you did that made yourself valuable, like how you were the most productive intern ever, the skills you learned to make your work more efficient, or the fresh ideas you implemented. Don’t try to squeeze things in - think about what is most important and highlight that.
+
+* **Cover Letters** are not a rehashing of your resume. Instead, every sentence should be about why you would be good at the job. What qualities do you get praised for? What excites you about the job position?  Here are three sentences I wrote about my data skills that paint a picture of my value:
+
+** My managers have lauded me for my ability to find efficient ways to collect, store, and present data on projects that would be messy without it. On top of my technical skills, I have an ingrained sensitivity to how the approach of a presentation should account for an audience's needs, knowledge, and familiarity on the topic. I often am complimented on how clear my final products are, even when they contain technical content.
+
+* Keep the tone of your cover letters **professionally conversational**. There’s no need to write like you don’t have a personality. I like to think of it as the tone I use with my current boss - we’re not friends, but she also knows I’m a human being.
+
+* Unless you’re a graphic designer, keep the design of both documents **boring**. Make the content creative and polished - but easily skimmable. [Georgetown has a great template](https://careercenter.georgetown.edu/major-career-guides/resumes-cover-letters/resume-formatting-tips/), but there’s no need for buying resume paper.
+
+* You’ll catch most errors by **reading out loud**. Better yet, have someone else read your documents out loud to you! 
+
 ### Coding/Data Science
 *(October 19, 2018)*
 
