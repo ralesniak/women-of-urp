@@ -3,6 +3,7 @@
 This repo will house all files related to our Date with Data series and our Skills Resources section of the newsletter
 
 ## Archive of Skills Resources from Newsletter
+* [Resumes and Cover Letters](#resumes-and-cover-letters)
 * [Coding/Data Science](#coding/data-science)
 * [General Data Skills](#general-data-skills)
 * [Taking the AICP Exam](#taking-the-aicp-exam)
@@ -20,7 +21,7 @@ Lots of my thoughts are inspired by Alison Green at AskaManager.org. Read her ad
 
 * **Cover Letters** are not a rehashing of your resume. Instead, every sentence should be about why you would be good at the job. What qualities do you get praised for? What excites you about the job position?  Here are three sentences I wrote about my data skills that paint a picture of my value:
 
-** My managers have lauded me for my ability to find efficient ways to collect, store, and present data on projects that would be messy without it. On top of my technical skills, I have an ingrained sensitivity to how the approach of a presentation should account for an audience's needs, knowledge, and familiarity on the topic. I often am complimented on how clear my final products are, even when they contain technical content.
+  * My managers have lauded me for my ability to find efficient ways to collect, store, and present data on projects that would be messy without it. On top of my technical skills, I have an ingrained sensitivity to how the approach of a presentation should account for an audience's needs, knowledge, and familiarity on the topic. I often am complimented on how clear my final products are, even when they contain technical content.
 
 * Keep the tone of your cover letters **professionally conversational**. There’s no need to write like you don’t have a personality. I like to think of it as the tone I use with my current boss - we’re not friends, but she also knows I’m a human being.
 
