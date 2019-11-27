@@ -19,16 +19,8 @@ Slides are saved in this GitHub repro (see above, named `intro_to_r_slides.html`
 
 ### Learn More:
 - Data Camp (how Rachel learned)
-    - Classes take about 3-4 hours each
-    - Requires a $29/mo subscription
-    - Some free classes <https://www.datacamp.com/community/open-courses>
-    - Classes to prioritize at the beginning:
-        - Introduction to the Tidyverse <https://www.datacamp.com/courses/introduction-to-the-tidyverse>
-        - Introduction to base R (free) <https://www.datacamp.com/courses/free-introduction-to-r>
-        - Importing Data into R <https://www.datacamp.com/courses/importing-data-in-r-part-1>
-        - Cleaning Data in R <https://www.datacamp.com/courses/cleaning-data-in-r> 
-        - Importing & Cleaning Data in R: Case Studies <https://www.datacamp.com/courses/importing-cleaning-data-in-r-case-studies>
-        - Data Manipulation in R with dplyr <https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial> 
+    - NO LONGER recommended because of inappropriate handling of sexual assault and harrassment. Learn more here <https://blog.rladies.org/post/statement-about-datacamp/>
+    - Alternatives: CodeAcademy, Dataquest
 - R for Data Science book (free)
     - <https://r4ds.had.co.nz/>
 - R for Reproducible Scientific Analysis (free)
