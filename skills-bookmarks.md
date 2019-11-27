@@ -1,7 +1,7 @@
 ## General
 <ul>
 <li> <A HREF="https://docs.google.com/presentation/d/12ZtdhKdS4_A0F20KstnwjPtKybyu0UkhKAgl8qKB3c4/edit#slide=id.g4d0e51641f_3_0" ADD_DATE="1551978678" >Which coding language should I learn?</A>
-<li> <A Href="https://www.anotherbookondatascience.com/">Another Book on Data Science</a> - *learning R and Python in tandem so you don't have to choose!*
+<li> <A Href="https://www.anotherbookondatascience.com/">Another Book on Data Science</a> - <i>learning R and Python in tandem so you don't have to choose!</i>
 <li><A HREF="https://tabula.technology/" ADD_DATE="1530193462" >Tabula: Extract Tables from PDFs</A>
 <li><A HREF="https://bookbook.pubpub.org/data-feminism" ADD_DATE="1541600798" >Data Feminism</A>
 <li><A HREF="https://censusreporter.org/" ADD_DATE="1499795583" >Census Reporter</A>
@@ -34,7 +34,7 @@
 <ul>
 <li> <A HREF="https://rfortherestofus.com/courses/getting-started/" ADD_DATE="1551984094" >Getting Started with R - R for the Rest of Us</A>
 <li> <A HREF="https://github.com/saghirb/Getting-Started-in-R" ADD_DATE="1539219450"> An 8 page guide to starting with R</A>
-<li> <A HREF="http://r4ds.had.co.nz/" ADD_DATE="1503940720">R for Data Science book</A> - *the R Bible*
+<li> <A HREF="http://r4ds.had.co.nz/" ADD_DATE="1503940720">R for Data Science book</A> - <i>the R Bible</i>
 <li> <A HREF="https://www.rstudio.com/resources/cheatsheets/" ADD_DATE="1503949257">R Package Cheatsheets</A>
 <li> <A HREF="http://style.tidyverse.org/" ADD_DATE="1529416784">tidyverse style guide</A>
 <li> <A HREF="http://stat545.com/" ADD_DATE="1536792375" >STAT545: Data wrangling, exploration, and analysis with R</A>
@@ -63,7 +63,7 @@ I personally found a lot of value paying for a program that systematically taugh
 </ul>
 
 #### Data Viz
-*Specific to R. Check the below section for general Data Viz.*
+<i>Specific to R. Check the below section for general Data Viz.</i>
 <ul>
 <li> <A HREF="https://www.r-graph-gallery.com/" ADD_DATE="1524581282" >The R Graph Gallery</A>
 <li> <A HREF="https://r-graphics.org/" ADD_DATE="1569006417">R Graphics Cookbook</A>
@@ -237,7 +237,7 @@ I personally found a lot of value paying for a program that systematically taugh
 <li><A HREF="https://www.apta.com/research-technical-resources/aptau/resources/cirriculum-resources/national-transit-curriculum/" ADD_DATE="1566502513" >National Transit Curriculum</A>
 <li><A HREF="http://onlinepubs.trb.org/onlinepubs/tcrp/tcrp_rpt_16-1.pdf" ADD_DATE="1548787794">TCRP Report 16: Transit and Urban Form</A>
 <li> <A HREF="https://github.com/google/transitfeed/wiki/FeedValidator" ADD_DATE="1554138150" >GTFS Validator</A>
-<li> <A HREF="https://github.com/CUTR-at-USF/awesome-transit" ADD_DATE="1545166583" >Community list of transit APIs, apps, datasets, research, and software</A> - *This is relatively complicated.*
+<li> <A HREF="https://github.com/CUTR-at-USF/awesome-transit" ADD_DATE="1545166583" >Community list of transit APIs, apps, datasets, research, and software</A> - <i>This is relatively complicated.</i>
 </ul>
 
 ## Miscellaneous
