@@ -9,7 +9,7 @@
 <li> <A HREF="https://www.tandfonline.com/doi/abs/10.1080/10618600.2017.1384734" ADD_DATE="1554752293" >50 Years of Data Science</A>
 <li> <A HREF="https://www.littlemissdata.com/blog/technical-tutorials" ADD_DATE="1561475243" >Create Easy to Follow Technical Tutorials</A>
 <li> <A HREF="https://crumplab.github.io/statistics/" ADD_DATE="1569006519">Answering questions with data</A>
-
+</ul>
 
 #### Data Accuracy
 <ul>
@@ -17,6 +17,7 @@
 <li> <A HREF="http://www.gregreda.com/2014/03/23/principles-of-good-data-analysis/" ADD_DATE="1552062305">Principles of good data analysis</A>
 <li> <A HREF="http://rex-analytics.com/data-analysis-questions-to-ask-the-first-time/" ADD_DATE="1534863057">Data Analysis: Questions to Ask the First Times</A>
 <li> <A HREF="https://towardsdatascience.com/check-your-assumptions-about-your-data-20be250c143" ADD_DATE="1552062564" >Check your assumptions about your data</A>
+</ul>
 
 #### Spreadsheets
 <ul>
@@ -25,6 +26,7 @@
 <li><A HREF="https://www.benlcollins.com/spreadsheets/data-best-practices/" ADD_DATE="1566936771" >18 Best Practices for Working with Data in Google Sheets</A>
 <li><A HREF="https://matthewlincoln.net/2018/03/26/best-practices-for-using-google-sheets-in-your-data-project.html" ADD_DATE="1566936786" >Best Practices for Using Google Sheets in Your Data Project</A>
 <li><A HREF="http://hbiostat.org/doc/glossary.pdf" ADD_DATE="1567087580">Glossary of Statistical Terms</A>
+</ul>
 
 ## R/Statistics
 
@@ -38,12 +40,14 @@
 <li> <A HREF="http://stat545.com/" ADD_DATE="1536792375" >STAT545: Data wrangling, exploration, and analysis with R</A>
 <li> <A HREF="https://rpubs.com/davoodastaraky/lubridate" ADD_DATE="1537911194" I>Working with Dates and Times with lubridate in R</A>
 <li> <A HREF="https://speakerdeck.com/yutannihilation/a-graphical-introduction-to-tidyrs-pivot-star" ADD_DATE="1569245873" >A Graphical Introduction to tidyr&#39;s pivot_*()</A>
+</ul>
 
 #### Paid Tools to Learn
 I personally found a lot of value paying for a program that systematically taught me the basics. However, **I don't recommend Data Camp due to its terrible handling of sexual assault and harasssment in its company.**
 <ul>
 <li> CodeAcademy
 <li> Dataquest
+</ul>
 
 #### Workflow/Philosophy
 <ul>
@@ -55,6 +59,7 @@ I personally found a lot of value paying for a program that systematically taugh
 <li> <A HREF="https://towardsdatascience.com/unit-testing-in-r-68ab9cc8d211" ADD_DATE="1569614234" >Unit Testing in R</A>
 <li> <a href="https://happygitwithr.com/">Happy Git with R</a>
 <li> <A HREF="https://www.manning.com/books/git-in-practice" ADD_DATE="1569243814" >Git in Practice</A>
+</ul>
 
 #### Data Viz
 *Specific to R. Check the below section for general Data Viz.*
@@ -69,6 +74,7 @@ I personally found a lot of value paying for a program that systematically taugh
 <li> <A HREF="https://www.r-bloggers.com/make-beautiful-tables-with-the-formattable-package/" ADD_DATE="1542395487" >Make Beautiful Tables with the Formattable Package</A>
 <li> <A HREF="https://www.statworx.com/de/blog/customizing-time-and-date-scales-in-ggplot2/" ADD_DATE="1528730133">Customizing time and date scales in ggplot2</A>
 <li> <A HREF="http://www.zevross.com/blog/2019/04/02/easy-multi-panel-plots-in-r-using-facet_wrap-and-facet_grid-from-ggplot2/" ADD_DATE="1554234505" >Easy multi-panel plots in R using facet_wrap() and facet_grid() from ggplot2</A>
+</ul>
 
 #### Spatial
 <ul>
@@ -76,6 +82,7 @@ I personally found a lot of value paying for a program that systematically taugh
 <li> <A HREF="https://mgimond.github.io/Spatial/index.html" ADD_DATE="1531847610">Intro to GIS and Spatial Analysis</A>
 <li> <A HREF="https://geocompr.robinlovelace.net/spatial-class.html" ADD_DATE="1535655806">Geocomputation with R</A>
 <li> <A HREF="https://www.littlemissdata.com/blog/maps" ADD_DATE="1549050518" >Map Plots Created With R And Ggmap — Little Miss Data</A>
+</ul>
 
 #### Document Creation with RMarkdown
 <ul>
@@ -84,6 +91,7 @@ I personally found a lot of value paying for a program that systematically taugh
 <li> <A HREF="https://www.r-bloggers.com/r-markdown-template-for-business-reports/" ADD_DATE="1549032737" >R Markdown Template for Business Reports | R-bloggers</A>
 <li> <A HREF="https://deanattali.com/2015/03/24/knitrs-best-hidden-gem-spin/" ADD_DATE="1559913701" >Knitr&#39;s best hidden gem: spin</A>
 <li> <A HREF="https://daranzolin.github.io/2019-09-03-reports-as-functions/" ADD_DATE="1568139661">Turn your Reports into Functions!</A>
+</ul>
 
 #### Programming 
 <ul>
@@ -92,6 +100,7 @@ I personally found a lot of value paying for a program that systematically taugh
 <li> <A HREF="http://www.brodrigues.co/blog/2018-06-10-scraping_pdfs/" ADD_DATE="1528722949">Getting data from pdfs using the pdftools package</A>
 <li> <A HREF="http://adv-r.had.co.nz/" ADD_DATE="1569006448">Advanced R</A>
 <li> <A HREF="https://rstudio-education.github.io/hopr/" ADD_DATE="1569006545">Hands-On Programming with R</A>
+</ul>
 
 #### Statistics
 <ul>
@@ -102,6 +111,7 @@ I personally found a lot of value paying for a program that systematically taugh
 <li> <A HREF="http://statsthinking21.org/" ADD_DATE="1569006476">Statistical Thinking for the 21st Century</A>
 <li> <A HREF="https://moderndive.com/" ADD_DATE="1569006489" >Statistical Inference via Data Science</A>
 <li> <A HREF="https://otexts.com/fpp2/" ADD_DATE="1569006382" >Forecasting: Principles and Practice</A>
+</ul>
 
 #### Text Analysis
 <ul>
@@ -109,27 +119,32 @@ I personally found a lot of value paying for a program that systematically taugh
 <li> <A HREF="https://gregrs-uk.github.io/2018-02-03/tidytext-walkthrough-correcting-spellings-reproducible-word-clouds/" ADD_DATE="1544563161">Tidytext walkthrough: correcting spellings and creating reproducible word clouds</A>
 <li> <A HREF="https://forcats.tidyverse.org/articles/forcats.html" ADD_DATE="1550598434" >Introduction to forcats • forcats</A>
 <li> <A HREF="https://eight2late.wordpress.com/2015/05/27/a-gentle-introduction-to-text-mining-using-r/" ADD_DATE="1561406307" >A gentle introduction to text mining using R | Eight to Late</A>
+</ul>
 
 #### Databases
 <ul>
 <li> <A HREF="https://community.rstudio.com/t/upload-data-from-r-into-multiple-connected-postgresql-tables/1293" ADD_DATE="1537473038" >Upload data from R into multiple, connected postgreSQL tables - RStudio Community</A>
 <li> <A HREF="https://db.rstudio.com/best-practices/managing-credentials" ADD_DATE="1537907235" >Securing Credentials</A>
 <li> <A HREF="https://cran.r-project.org/web/packages/dbplyr/vignettes/sql-translation.html" ADD_DATE="1549659560" >SQL translation</A>
+</ul>
 
 #### Shiny (Web Apps)
 <li> <A HREF="https://kellobri.github.io/shiny-prod-book/" ADD_DATE="1569595541">Supplement to Shiny in Production</A>
 <li> <A HREF="https://thinkr-open.github.io/building-shiny-apps-workflow/index.html" ADD_DATE="1569616952">Building Big Shiny Apps - A Workflow</A>
+</ul>
 
 #### Analysis Examples
 <ul>
 <li> <A HREF="https://www.r-bloggers.com/exploring-san-francisco-bay-areas-bike-share-system/" ADD_DATE="1536671540" >Exploring San Francisco Bay Area&#39;s Bike Share System</A>
 <li> <A HREF="https://rviews.rstudio.com/2018/09/12/gdp-via-api/" ADD_DATE="1536775437" >API Practice</A>
+</ul>
 
 #### Interesting People/Groups
 <ul>
 <li> <a href="https://twitter.com/R4DScommunity">R for Data Science Community</a>
 <li> <A HREF="https://github.com/ATFutures" ADD_DATE="1539186530" >Active Transport Futures</A>
 <li> <A HREF="http://www.lulu.com/spotlight/rdpeng" ADD_DATE="1569000570" >Roger Peng's Books</A>
+</ul>
 
 ## Data Visualization
 
@@ -147,7 +162,8 @@ I personally found a lot of value paying for a program that systematically taugh
 <li><A HREF="https://xeno.graphics/" ADD_DATE="1524581355" >Xenographics – Weird Charts</A>
 <li> <A HREF="https://www.typography.com/blog/fonts-for-complex-data" ADD_DATE="1550762039" >Fonts for Complex Data</A>
 <li> <A HREF="https://blog.datawrapper.de/guide-what-to-consider-when-creating-tables/" ADD_DATE="1559942845" >What to consider when creating tables | Chartable</A>
-              
+</ul>
+
 #### Tableau
 
 <ul>
@@ -159,6 +175,7 @@ I personally found a lot of value paying for a program that systematically taugh
 <li><A HREF="https://www.tableau.com/learn/webinars/advanced-mapping-techniques-tableau" ADD_DATE="1557416535" >Advanced mapping techniques with Tableau</A>
 <li><A HREF="https://kb.tableau.com/articles/howto/showing-records-that-fall-within-a-period-of-time" ADD_DATE="1557489744">Displaying Active Records Over Time</A>
 <li><A HREF="https://www.tableau.com/about/blog/2019/5/tips-creating-mobile-dashboards-new-automatic-layouts-tableau-107490?utm_campaign=Nurture-PROD-ALL-ALL-ALL-ALL&utm_medium=Social&utm_source=Twitter" ADD_DATE="1558644338" >Tips for creating mobile dashboards with new automatic layouts for Tableau</A>
+</ul>
 
 ## Design and Web Dev 
 
@@ -174,17 +191,21 @@ I personally found a lot of value paying for a program that systematically taugh
 <li><A HREF="https://practicaltypography.com/" ADD_DATE="1550761138" >Butterick’s Practical Typography</A>
 <li><A HREF="https://www.slideshare.net/kbosch/digital-sketchnotes-for-visualizing-learning" ADD_DATE="1555431444" >Digital Sketchnotes for Visualizing Learning</A>
 <li><A HREF="https://codeburst.io/100-free-resources-to-learn-full-stack-web-development-5b40e0bdf5f2" ADD_DATE="1504032841" >100+ FREE Resources to Learn Full Stack Web Development</A>
-                
+</ul>
+
 ## Python
 <ul>
 <li><A HREF="https://automatetheboringstuff.com/" ADD_DATE="1506348570">Automate the Boring Stuff with Python</A>
 <li><A HREF="https://realpython.com/python-pep8/" ADD_DATE="1569252623" >PEP 8 - Python Style Guide</A>
 <li><A HREF="https://hackernoon.com/introduction-to-numpy-1-an-absolute-beginners-guide-to-machine-learning-and-data-science-5d87f13f0d51" ADD_DATE="1569252631" >Introduction to Numpy: An absolute beginners guide</A>
 <li><A HREF="https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html" ADD_DATE="1569252638" >10 minutes to pandas — pandas 0.25.1 documentation</A>
+</ul>
 
 ### Data Engineering
- <li><A HREF="https://angelddaz.substack.com/p/so-you-want-to-be-a-data-engineer" ADD_DATE="1566845540" >So You Want to be a Data Engineer?</A>
+<ul>
+<li><A HREF="https://angelddaz.substack.com/p/so-you-want-to-be-a-data-engineer" ADD_DATE="1566845540" >So You Want to be a Data Engineer?</A>
 <li><A HREF="https://hackernoon.com/learn-data-engineering-my-favorite-free-resources-52a29ab999b" ADD_DATE="1568053337" >Learn Data Engineering: My Favorite Free Resources</A>
+</ul>
 
 ## Management/Workplace Related
 <ul>
@@ -194,6 +215,7 @@ I personally found a lot of value paying for a program that systematically taugh
 <li><A HREF="https://www.youtube.com/watch?v=pVumgiMJeag" ADD_DATE="1546548930" >How To Public Speaking - YouTube</A>
 <li><A HREF="https://oreilly-ds-report.s3.amazonaws.com/Care_and_Feeding_of_Data_Scientists.pdf" ADD_DATE="1567524134">The Care and Feeding of Data Scientists</A>
 <li><A HREF="https://www.brightcarbon.com/blog/" ADD_DATE="1524676479" >Presentation Slides blog</A>
+</ul>
 
 ## Transit Data and Resources
 <ul>
@@ -206,6 +228,9 @@ I personally found a lot of value paying for a program that systematically taugh
 <li><A HREF="https://www.apta.com/research-technical-resources/aptau/resources/cirriculum-resources/national-transit-curriculum/" ADD_DATE="1566502513" >National Transit Curriculum</A>
 <li><A HREF="http://onlinepubs.trb.org/onlinepubs/tcrp/tcrp_rpt_16-1.pdf" ADD_DATE="1548787794">TCRP Report 16: Transit and Urban Form</A>
 <li> <A HREF="https://github.com/google/transitfeed/wiki/FeedValidator" ADD_DATE="1554138150" >GTFS Validator</A>
+</ul>
 
 ## Miscellaneous
+<ul>
 <li><A HREF="http://site.ebrary.com.proxy.library.georgetown.edu/lib/wrlc/detail.action?docID=11052812" ADD_DATE="1484231408" >Public Participation book</A>
+</ul>
