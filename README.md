@@ -44,14 +44,14 @@ I can’t stop talking about coding! Even out for drinks a couple of weeks ago, 
 
 * Why not use C++/Java/HTML/CSS/etc.? These languages have their uses, but if you’re learning them, you’re probably not doing urban planning work. If you want to be a software developer or web designer, these are essential!
 
-* How do I get started? - Watch the videos! Read those books! Join Data Camp and pick a track! [Follow](https://twitter.com/BecomingDataSci) [some](https://twitter.com/dataandme) [wonderful](https://twitter.com/JennyBryan) [women](https://twitter.com/juliasilge) [on](https://twitter.com/minebocek) [Twitter](https://twitter.com/sharlagelfand)! Find the data science meetups available in DC. When you come across something you’re interested but don’t understand yet, bookmark it. Google your questions! Most importantly, download R Studio or Anaconda and start typing!
+* How do I get started? - Watch the videos! Read those books! ~~Join Data Camp and pick a track!~~ [Follow](https://twitter.com/BecomingDataSci) [some](https://twitter.com/dataandme) [wonderful](https://twitter.com/JennyBryan) [women](https://twitter.com/juliasilge) [on](https://twitter.com/minebocek) [Twitter](https://twitter.com/sharlagelfand)! Find the data science meetups available in DC. When you come across something you’re interested but don’t understand yet, bookmark it. Google your questions! Most importantly, download R Studio or Anaconda and start typing!
 
 ### General Data Skills
 *(October 5, 2018)*
 
 Thinking about data: Sure, technical skills are great, but thinking about what data is telling us is so important. A great example of critically thinking about datasets is at [Chartable](https://blog.datawrapper.de/weekly46-consumer-price-index/) (Rachel’s current blog crush).
 
-Data doesn’t have to mean code: While I am personally super-empowered by learning R, I know that others don’t need it, don’t want to learn it, or are intimidated to dive in. Instead, get a refresher on using spreadsheets using [this free Data Camp course](https://www.datacamp.com/courses/data-analysis-with-spreadsheets), and learn how they’ve transformed business through this [Planet Money episode from 2015](https://www.npr.org/sections/money/2015/02/25/389027988/episode-606-spreadsheets).
+Data doesn’t have to mean code: While I am personally super-empowered by learning R, I know that others don’t need it, don’t want to learn it, or are intimidated to dive in. Instead, get a refresher on using spreadsheets using ~~[this free Data Camp course]~~(https://www.datacamp.com/courses/data-analysis-with-spreadsheets), and learn how they’ve transformed business through this [Planet Money episode from 2015](https://www.npr.org/sections/money/2015/02/25/389027988/episode-606-spreadsheets).
 
 Best practices for using spreadsheets: While spreadsheets are used universally, how they are set up can vary wildly… Learn [best practices](https://www.benlcollins.com/spreadsheets/data-best-practices/) and make your spreadsheets as useful as possible (not landmine fields of merged cells, color coding, and tables-within-tables)
 
@@ -124,7 +124,7 @@ Tableau: Tableau is a data exploration and visualization tool, and it offers a [
 
 SketchUp: I'll admit, I know nothing about SketchUp and likely will not need to. If I did need to learn it, [this 26-hour "learning path" from Lynda](https://www.lynda.com/learning-paths/CAD/improve-your-sketchup-skills) would be my starting point.
 
-R: My post-thesis to-do list includes learning R, which is used for statistics and data analysis. I'm going to tackle the [Data Analyst with R career track](https://www.datacamp.com/tracks/data-analyst-with-r) at DataCamp. I’ve been following [R-Bloggers](https://www.r-bloggers.com/) to learn practical applications.
+R: My post-thesis to-do list includes learning R, which is used for statistics and data analysis. I'm going to tackle the ~~[Data Analyst with R career track](https://www.datacamp.com/tracks/data-analyst-with-r) at DataCamp.~~ I’ve been following [R-Bloggers](https://www.r-bloggers.com/) to learn practical applications.
 
 ### ArcGIS
 *(April 13, 2018)*
