@@ -222,7 +222,7 @@ I personally found a lot of value paying for a program that systematically taugh
 <li><A HREF="https://where.coraline.codes/blog/not_applicable/" ADD_DATE="1538147585">Writing Inclusive Job Posts</A>
 <li><A HREF="https://larahogan.me/management/" ADD_DATE="1550494382" >Management | Lara Hogan</A>
 <li><A HREF="https://charity.wtf/2019/01/04/engineering-management-the-pendulum-or-the-ladder/" ADD_DATE="1553553456" >Engineering Management: The Pendulum Or The Ladder</A>
-<li><A HREF="https://www.youtube.com/watch?v=pVumgiMJeag" ADD_DATE="1546548930" >How To Public Speaking - YouTube</A>
+<li><A HREF="https://www.youtube.com/watch?v=pVumgiMJeag" ADD_DATE="1546548930" >How To Public Speaking</A> - <i>helpful but also silly</i>
 <li><A HREF="https://oreilly-ds-report.s3.amazonaws.com/Care_and_Feeding_of_Data_Scientists.pdf" ADD_DATE="1567524134">The Care and Feeding of Data Scientists</A>
 <li><A HREF="https://www.brightcarbon.com/blog/" ADD_DATE="1524676479" >Presentation Slides blog</A>
 </ul>
