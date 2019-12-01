@@ -28,6 +28,13 @@
 <li><A HREF="https://matthewlincoln.net/2018/03/26/best-practices-for-using-google-sheets-in-your-data-project.html" ADD_DATE="1566936786" >Best Practices for Using Google Sheets in Your Data Project</A>
 </ul>
 
+#### Datasets to use
+<ul>
+ <li> <a href="https://www.propublica.org/datastore/">ProPublica</a> - <i>Some free, some premium</i>
+ <li> <a href="https://www.kaggle.com/datasets">Kaggle</a>
+ <li> <a href="https://github.com/rfordatascience/tidytuesday">TidyTuesday</a>
+</ul>
+
 ## R/Statistics
 
 #### Basics
@@ -57,9 +64,12 @@ I personally found a lot of value paying for a program that systematically taugh
 <li> <A HREF="https://mtlynch.io/human-code-reviews-2/#aim-to-bring-the-code-up-a-letter-grade-or-two" ADD_DATE="1555960002" >How to Do Code Reviews Like a Human</A>
 <li> <A HREF="https://speakerdeck.com/jennybc/reprex-reproducible-examples-with-r">Reproducible examples</a>
 <li> <A HREF="https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example" ADD_DATE="1556555780" >How to make a great R reproducible example</A>
+ <li> <a href="https://katherinemwood.github.io/post/testthat/">Intro to Unit Testing</a>
 <li> <A HREF="https://towardsdatascience.com/unit-testing-in-r-68ab9cc8d211" ADD_DATE="1569614234" >Unit Testing in R</A>
 <li> <a href="https://happygitwithr.com/">Happy Git with R</a>
 <li> <A HREF="https://www.manning.com/books/git-in-practice" ADD_DATE="1569243814">Git in Practice</A>
+ <li> <a href="https://github.com/msberends/cleaner">Package `cleaner`</a> - <i>formerly `clean`</i>
+  <li> <a href="https://nacnudus.github.io/spreadsheet-munging-strategies/index.html">Spreadsheet Munging Strategies</a>
 </ul>
 
 #### Data Viz
@@ -143,13 +153,17 @@ I personally found a lot of value paying for a program that systematically taugh
 <ul>
 <li> <A HREF="https://www.r-bloggers.com/exploring-san-francisco-bay-areas-bike-share-system/" ADD_DATE="1536671540" >Exploring San Francisco Bay Area&#39;s Bike Share System</A>
 <li> <A HREF="https://rviews.rstudio.com/2018/09/12/gdp-via-api/" ADD_DATE="1536775437" >API Practice</A>
+ <li> <a href="https://blog.exploratory.io/working-with-json-data-in-very-simple-way-ad7ebcc0bb89">Working with JSON data</a>
+ <li> <a href="https://www.youtube.com/user/safe4democracy/videos">Screencasts by David Robinson</a>
 </ul>
 
 #### Interesting People/Groups
 <ul>
 <li> <a href="https://www.meetup.com/rladies-dc/">R Ladies DC Meetup</a>
 <li> <a href="https://twitter.com/WeAreRLadies">R Ladies Curated Twitter</a>
+ <li> <a href="https://rladies-community-slack.herokuapp.com/">Join R Ladies Slack</a>
 <li> <a href="https://speakerdeck.com/jennybc">Jenny Bryan's slides</a>
+ <li> <a href="https://www.jessemaegan.com/">Jesse Mostipak's talks and posts</a>
 <li> <a href="https://twitter.com/R4DScommunity">R for Data Science Community</a>
 <li> <A HREF="https://github.com/ATFutures" ADD_DATE="1539186530" >Active Transport Futures</A>
 <li> <A HREF="http://www.lulu.com/spotlight/rdpeng" ADD_DATE="1569000570" >Roger Peng's Books</A>
@@ -167,6 +181,7 @@ I personally found a lot of value paying for a program that systematically taugh
 <li><A HREF="http://www.e-tabs.com/data-viz-blog/data-viz-for-the-visually-impaired-part-2-colour-blindness/" ADD_DATE="1524588191" >Data Viz for the Visually Impaired - Part 2: Colour Blindness</A>
 <li><A HREF="https://blog.datawrapper.de/colorguide/" ADD_DATE="1533128452" >Your Friendly Guide to Colors in Data Visualisation</A>
 <li><a HREF="https://projects.susielu.com/viz-palette?colors=">Viz Palette: Colors in Action</a>
+ <li><a href="https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2">Create Corporate Color Palettes</a>
 <li><A HREF="https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary" ADD_DATE="1524581302" >Financial Times Visual Vocabulary</A>
 <li><A HREF="https://xeno.graphics/" ADD_DATE="1524581355" >Weird Charts</A>
 <li> <A HREF="https://www.typography.com/blog/fonts-for-complex-data" ADD_DATE="1550762039" >Fonts for Complex Data</A>
@@ -232,10 +247,9 @@ I personally found a lot of value paying for a program that systematically taugh
 <li> <a href="http://transitfeeds.com/feeds">Text-Based Schedules (GTFS) for Transit </a>
 <li> <a href="https://www.capitalbikeshare.com/system-data">Capital Bikeshare Data</a>
 <li> <a href="http://web.mta.info/developers/data/archives.html">NY MTA Archive of real-time data</a>
-<li><A HREF="http://ftis.org/urban_iNTD.aspx" ADD_DATE="1503521097">Urban Integrated National Transit Database - FTIS: Florida Transit Information System</A>
+<li><A HREF="http://ftis.org/urban_iNTD.aspx" ADD_DATE="1503521097">Urban Integrated National Transit Database</A>
 <li><A HREF="https://www.wmata.com/schedules/timetables/printable.cfm" ADD_DATE="1483543778" >WMATA Bus Timetables in PDF</A>
 <li><A HREF="https://www.apta.com/research-technical-resources/aptau/resources/cirriculum-resources/national-transit-curriculum/" ADD_DATE="1566502513" >National Transit Curriculum</A>
-<li><A HREF="http://onlinepubs.trb.org/onlinepubs/tcrp/tcrp_rpt_16-1.pdf" ADD_DATE="1548787794">TCRP Report 16: Transit and Urban Form</A>
 <li> <A HREF="https://github.com/google/transitfeed/wiki/FeedValidator" ADD_DATE="1554138150" >GTFS Validator</A>
 <li> <A HREF="https://github.com/CUTR-at-USF/awesome-transit" ADD_DATE="1545166583" >Community list of transit APIs, apps, datasets, research, and software</A> - <i>This is relatively complicated.</i>
 </ul>
@@ -243,4 +257,5 @@ I personally found a lot of value paying for a program that systematically taugh
 ## Miscellaneous
 <ul>
 <li><A HREF="http://site.ebrary.com.proxy.library.georgetown.edu/lib/wrlc/detail.action?docID=11052812" ADD_DATE="1484231408" >Public Participation book</A>
+ <li><A HREF="http://onlinepubs.trb.org/onlinepubs/tcrp/tcrp_rpt_16-1.pdf" ADD_DATE="1548787794">TCRP Report 16: Transit and Urban Form</A>
 </ul>
