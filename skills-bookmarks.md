@@ -167,6 +167,7 @@ I personally found a lot of value paying for a program that systematically taugh
 <li> <a href="https://twitter.com/R4DScommunity">R for Data Science Community</a>
 <li> <A HREF="https://github.com/ATFutures" ADD_DATE="1539186530" >Active Transport Futures</A>
 <li> <A HREF="http://www.lulu.com/spotlight/rdpeng" ADD_DATE="1569000570" >Roger Peng's Books</A>
+ <li> <a href="http://www.datasciguide.com/">DataSciGuide</a>
 </ul>
 
 ## Data Visualization
