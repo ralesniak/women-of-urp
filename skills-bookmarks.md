@@ -26,6 +26,7 @@
 <li><A HREF="https://datacarpentry.org/spreadsheet-ecology-lesson/" ADD_DATE="1566936769" >Data Carpentry: Data Organization in Spreadsheets</A>
 <li><A HREF="https://www.benlcollins.com/spreadsheets/data-best-practices/" ADD_DATE="1566936771" >18 Best Practices for Working with Data in Google Sheets</A>
 <li><A HREF="https://matthewlincoln.net/2018/03/26/best-practices-for-using-google-sheets-in-your-data-project.html" ADD_DATE="1566936786" >Best Practices for Using Google Sheets in Your Data Project</A>
+ <li><a HREF="https://blog.datawrapper.de/prepare-and-clean-up-data-for-data-visualization/">Prepare your data for visualization</a>
 </ul>
 
 #### Datasets to use
