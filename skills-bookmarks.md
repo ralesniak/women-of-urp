@@ -229,6 +229,7 @@ I personally found a lot of value paying for a program that systematically taugh
 <li><A HREF="https://realpython.com/python-pep8/" ADD_DATE="1569252623" >PEP 8 - Python Style Guide</A>
 <li><A HREF="https://hackernoon.com/introduction-to-numpy-1-an-absolute-beginners-guide-to-machine-learning-and-data-science-5d87f13f0d51" ADD_DATE="1569252631" >Introduction to Numpy: An absolute beginners guide</A>
 <li><A HREF="https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html" ADD_DATE="1569252638" >10 minutes to pandas</A>
+ <li><a href="https://medium.com/python-pandemonium/never-write-for-loops-again-91a5a4c84baf">You (Probably) Don’t Need For-Loops</a>
 </ul>
 
 ### Data Engineering
