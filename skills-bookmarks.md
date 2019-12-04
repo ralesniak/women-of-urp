@@ -98,6 +98,7 @@ I personally found a lot of value paying for a program that systematically taugh
 <li> <A HREF="https://geocompr.robinlovelace.net/spatial-class.html" ADD_DATE="1535655806">Geocomputation with R</A>
 <li> <A HREF="https://www.littlemissdata.com/blog/maps" ADD_DATE="1549050518" >Map Plots Created With R And Ggmap</A>
 <li> <a href="https://www.zevross.com/blog/2019/11/12/using-reticulate-with-arcpy-on-a-windows-machine/">Use arcpy inside R</a>
+ <li> <a href="https://www.zevross.com/blog/2019/12/04/install-postgres-postgis-and-get-started-with-spatial-sql/">Introduction to using databases with spatial data</a>
 </ul>
 
 #### Document Creation with RMarkdown
