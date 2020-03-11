@@ -70,6 +70,7 @@ I personally found a lot of value paying for a program that systematically taugh
 <li> <A HREF="https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example" ADD_DATE="1556555780" >How to make a great R reproducible example</A>
  <li> <a href="https://katherinemwood.github.io/post/testthat/">Intro to Unit Testing</a>
 <li> <A HREF="https://towardsdatascience.com/unit-testing-in-r-68ab9cc8d211" ADD_DATE="1569614234" >Unit Testing in R</A>
+ <li> <a href="https://resources.rstudio.com/rstudio-conf-2020/technical-debt-is-a-social-problem-gordon-shotwell-2">Technical Debt is a Social Problem, OR Be Communicative and Considerate with your Data Product</a>
 <li> <a href="https://happygitwithr.com/">Happy Git with R</a>
 <li> <A HREF="https://www.manning.com/books/git-in-practice" ADD_DATE="1569243814">Git in Practice</A>
  <li> <a href="https://github.com/msberends/cleaner">Package `cleaner`</a> - <i>formerly `clean`</i>
