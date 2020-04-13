@@ -90,6 +90,7 @@ I personally found a lot of value paying for a program that systematically taugh
 <li> <A HREF="https://www.r-bloggers.com/make-beautiful-tables-with-the-formattable-package/" ADD_DATE="1542395487" >Make Beautiful Tables with the Formattable Package</A>
 <li> <A HREF="https://www.statworx.com/de/blog/customizing-time-and-date-scales-in-ggplot2/" ADD_DATE="1528730133">Customizing time and date scales in ggplot2</A>
 <li> <A HREF="http://www.zevross.com/blog/2019/04/02/easy-multi-panel-plots-in-r-using-facet_wrap-and-facet_grid-from-ggplot2/" ADD_DATE="1554234505" >Easy multi-panel plots in R using facet_wrap() and facet_grid() from ggplot2</A>
+ <li> <a href="https://bbc.github.io/rcookbook/">BBC Visual and Data Journalism cookbook for R graphics</a> 
 </ul>
 
 #### Spatial
