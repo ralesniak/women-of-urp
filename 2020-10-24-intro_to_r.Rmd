@@ -1,0 +1,335 @@
+---
+title: "Intro to R for Planners"
+author: "Rachel Lesniak"
+date: "2020-10-24 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: 16:9
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+```
+
+---
+class: center, middle
+
+# xaringan
+
+---
+class: inverse, center, middle
+
+# Get Started
+
+---
+
+# Pre-work Refresher:
+
+- Installed **R** and **R Studio**
+
+--
+- Learned about **Projects** and **File types**
+
+--
+- Installed **Packages**
+
+--
+- Imported a **CSV** using `read_csv()`
+
+--
+- Learned the difference between **Objects** and **Functions**
+
+--
+- Examined data using `head()`, `tail()`, `View()`, and `skim()`
+
+---
+
+# Goal for Lesson:
+
+**CHART**
+
+---
+
+# Create a new project
+
+---
+
+# Download data and put in project
+
+---
+
+# Open a new script
+
+---
+
+# Add `tidyverse` to the script
+
+```{r}
+library(tidyverse)
+
+```
+
+
+---
+
+# Import new data via `read_csv()`
+
+```{r}
+
+aff_housing <- read_csv("Affordable_Housing.csv")
+
+```
+
+---
+
+# Examine your data
+
+*Rachel likes `glimpse()` because all columns are shown*
+
+```{r}
+
+glimpse(aff_housing)
+
+```
+
+---
+
+# `skim()` your data
+
+```{r, eval = FALSE}
+library(skimr)
+
+skim(aff_housing)
+```
+
+---
+
+# We don't need all those columns...
+
+Use `select()` to **select** the columns wanted.
+
+```{r}
+
+aff_housing_2 <- aff_housing %>%
+  select(MAR_WARD, PROJECT_NAME, STATUS_PUBLIC, AFFORDABLE_UNITS_AT_0_30_AMI)
+
+glimpse(aff_housing_2)
+
+```
+
+`select()` can also be used to **deselect** columns using the minus sign.
+
+```{r}
+
+deselect_example <- aff_housing %>%
+  select(-GIS_LAST_MOD_DTTM)
+
+```
+
+---
+
+# Sort alphabetically
+
+Use `arrange()` to **arrange** columns in order.
+
+```{r}
+
+aff_housing_3 <- aff_housing_2 %>%
+  arrange(PROJECT_NAME)
+
+head(aff_housing_3)
+
+```
+
+`arrange(desc(column))` can be used to arrange in **descending** order.
+
+```{r}
+descending_example <- aff_housing %>%
+  arrange(desc(PROJECT_NAME))
+```
+
+---
+
+# Filter 
+
+Let's filter to just rows that are `"Completed 2015 to Date"`.
+
+We've lost 243 rows by filtering.
+
+```{r}
+
+aff_housing_4 <- aff_housing_3 %>%
+  filter(STATUS_PUBLIC == "Completed 2015 to Date")
+
+glimpse(aff_housing_4)
+
+```
+
+---
+
+# Mutate
+
+Let's get rid of the repetitive "Ward" label.
+
+```{r}
+
+aff_housing_5 <- aff_housing_4 %>%
+  mutate(ward = str_sub(MAR_WARD, start = 6))
+
+glimpse(aff_housing_5)
+
+```
+
+---
+
+# Sum units by ward
+
+`group_by()` chooses the groups. `summarize()` creates one row per group. 
+`sum()` adds up all the values together.
+
+```{r, message = FALSE}
+
+aff_housing_final <- aff_housing_5 %>%
+  group_by(ward) %>%
+  summarize(aff_units_0_30 = sum(AFFORDABLE_UNITS_AT_0_30_AMI)) %>%
+  ungroup()
+
+aff_housing_final
+
+```
+---
+
+# Sum units and count projects
+
+`n()` counts the number of rows per group.
+
+```{r, message = FALSE}
+
+aff_housing_final <- aff_housing_5 %>%
+  group_by(ward) %>%
+  summarize(aff_units_0_30 = sum(AFFORDABLE_UNITS_AT_0_30_AMI),
+            n_projects = n()) %>%
+  ungroup()
+
+aff_housing_final
+
+```
+
+---
+
+# Sum units, count projects, and find ratio
+
+```{r, message = FALSE}
+
+aff_housing_final <- aff_housing_5 %>%
+  group_by(ward) %>%
+  summarize(aff_units_0_30 = sum(AFFORDABLE_UNITS_AT_0_30_AMI),
+            n_projects = n(),
+            ratio = aff_units_0_30/n_projects) %>%
+  ungroup()
+
+aff_housing_final
+
+```
+
+---
+class: inverse, center, middle
+
+# 10-minute break
+
+## *remember to save your script!*
+
+---
+
+# Create a column (or bar) chart
+
+{ggplot2} is the package inside {tidyverse}. It uses `+` instead of `%>%`, but they mean the same thing.
+
+ggplot needs three things: data, aesthetics (`aes`), and a geom (`geom_x`). Here we've used `geom_col()` to make a column chart.
+
+```{r, fig.height = 5}
+
+ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
+  geom_col()
+
+```
+
+---
+
+# Add a theme
+
+Look at all themes here: https://ggplot2.tidyverse.org/reference/ggtheme.html
+
+```{r, fig.height = 5}
+
+ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
+  geom_col() +
+  theme_classic(base_size = 20)
+
+```
+
+---
+
+# Add a title and subtitle
+
+```{r, fig.height = 4.5, fig.width = 9}
+
+ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
+  geom_col() +
+  theme_classic(base_size = 20) +
+  labs(title = "In affordable housing projects, Ward 8 has the highest concentration of 0 to 30% AMI units",
+       subtitle = "Ratio of 0 to 30% units to projects in DC by ward",
+       x = "DC Ward",
+       y = NULL)
+
+```
+
+---
+
+# Arrange by most to least
+
+(If you get lost here, it's okay)
+
+```{r, eval = FALSE}
+
+aff_housing_final %>%
+  mutate(ward = fct_reorder(ward, ratio, .desc = TRUE)) %>%
+  ggplot(aes(x = ward, y = ratio)) +
+  geom_col() +
+  theme_classic(base_size = 20) +
+  labs(
+    title = "In affordable housing projects, Ward 8 has the highest concentration of 0 to 30% AMI units",
+    subtitle = "Ratio of 0 to 30% units to projects in DC by ward",
+    x = "DC Ward",
+    y = NULL
+  )
+
+```
+
+---
+
+# Arrange by most to least
+
+```{r, echo = FALSE, fig.width = 9}
+
+aff_housing_final %>%
+  mutate(ward = fct_reorder(ward, ratio, .desc = TRUE)) %>%
+  ggplot(aes(x = ward, y = ratio)) +
+  geom_col() +
+  theme_classic(base_size = 20) +
+  labs(
+    title = "In affordable housing projects, Ward 8 has the highest\nconcentration of 0 to 30% AMI units",
+    subtitle = "Ratio of 0 to 30% units to projects in DC by ward",
+    x = "DC Ward",
+    y = NULL
+  )
+
+```
+
+
