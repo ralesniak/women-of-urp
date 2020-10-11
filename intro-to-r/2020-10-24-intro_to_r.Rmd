@@ -157,15 +157,24 @@ class: inverse, center, middle
 
 # Create a new project
 
+![](screenshots/new_project_1.png) 
 
+![](screenshots/new_project_2.png)
 
 ---
 
 # Download data and put in project
 
+Source: https://opendata.dc.gov/datasets/affordable-housing
+
+
 ---
 
 # Open a new script
+
+- Windows: Ctrl + N
+
+- Mac: Shift + ⌘ + N
 
 ---
 
@@ -191,7 +200,8 @@ aff_housing <- read_csv("Affordable_Housing.csv")
 
 # Examine your data
 
-*Rachel likes `glimpse()` because all columns are shown*
+- `head()` and `View()` are great!
+- Rachel likes `glimpse()` because all columns are shown
 
 ```{r}
 
@@ -247,11 +257,22 @@ class: center, middle
 
 ```{r, eval = FALSE}
 
-data_frame %>%
-  function(arguments)
+my_data %>%
+  this_thing(this_way)
 
 ```
 
+Give me `my_data` and then do `this_thing` to it `this_way`.
+
+```{r}
+
+aff_housing_2 <- aff_housing %>%
+  select(MAR_WARD, PROJECT_NAME, STATUS_PUBLIC, AFFORDABLE_UNITS_AT_0_30_AMI) 
+```
+
+Give me `aff_housing` and then `select` `these columns`.
+
+Save the result as `aff_housing_2`.
 
 ---
 
@@ -404,7 +425,7 @@ ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
   geom_col() +
   theme_classic(base_size = 20) +
   labs(title = "In affordable housing projects, Ward 8 has the highest concentration of 0 to 30% AMI units",
-       subtitle = "Ratio of 0 to 30% units to projects in DC by ward",
+       subtitle = "Ratio of 0 to 30% AMI units to projects in DC by ward",
        x = "DC Ward",
        y = NULL)
 
@@ -426,7 +447,7 @@ aff_housing_final %>%
   theme_classic(base_size = 20) +
   labs(
     title = "In affordable housing projects, Ward 8 has the highest concentration of 0 to 30% AMI units",
-    subtitle = "Ratio of 0 to 30% units to projects in DC by ward",
+    subtitle = "Ratio of 0 to 30% AMI units to projects in DC by ward",
     x = "DC Ward",
     y = NULL
   )
@@ -446,7 +467,7 @@ aff_housing_final %>%
   theme_classic(base_size = 20) +
   labs(
     title = "In affordable housing projects, Ward 8 has the highest\nconcentration of 0 to 30% AMI units",
-    subtitle = "Ratio of 0 to 30% units to projects in DC by ward",
+    subtitle = "Ratio of 0 to 30% AMI units to projects in DC by ward",
     x = "DC Ward",
     y = NULL
   )
