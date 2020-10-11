@@ -4,6 +4,7 @@ author: "Rachel Lesniak"
 date: "2020-10-24 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
+    css: xaringan-themer.css
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -12,20 +13,109 @@ output:
       ratio: 16:9
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include = FALSE, warning = FALSE}
 options(htmltools.dir.version = FALSE)
+
+library(xaringanthemer)
+library(emo) # github.com/hadley/emo
+style_mono_accent(
+  base_color = "#3d405b",
+  header_font_google = google_font("Rubik"),
+  text_font_google   = google_font("Roboto", "300", "300i"),
+  text_font_size = "1.2rem",
+  code_font_google   = google_font("Fira Mono"),
+  extra_css = list(
+    ul = list("font-size" = "1.6rem",
+              "line-height" = "2.2rem")
+  )
+)
 
 ```
 
----
-class: center, middle
+# What is data science?
 
-# xaringan
+#### *"Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge."* - R for Data Science
+
+1. Capture data
+2. Maintain data
+3. Process data
+4. Analyze data
+5. Communicate data
+
+Engineers do the first two steps (capture and maintain). **Don't worry about those.**
+
+Statisticians do the third step (process). **Don't worry about this.**
+
+Analysts do steps four and five (analyze and communicate). *You are already doing this!*
+
+---
+
+# What is code/programming?
+
+- Data science heavily focuses on code.
+- If you type in directions into your computer, you are coding.
+    - Yes, even in Excel!
+- If you are writing multiple steps of code, you are programming.
+- People are use these interchangeably - you can too.
+
+---
+
+# Why code or program?
+
+- Code is text
+    - copy and paste!!
+- Code is read-able
+    - read your code days, weeks, months later
+    - check your work/someone else's work
+    - understand unfamiliar processes
+- Code is share-able
+    - put it on GitHub, someone can use your work
+    - learn from others' work
+- Code is open
+    - FREE (which means inclusive)
+
+---
+
+# Why on earth would we use this for planning?
+
+- You are around more data than you think
+- Speed up repetitive processes
+    - Received 112 Excel files all at once
+- Spreadsheets have limitations
+- Not all data lives in spreadsheets
+
+---
+
+# Pep Talk
+
+- This is a skill you can tackle.
+- You do not need to be a genius to get it.
+- You do not need to struggle on your own.
+- Today, let's have the confidence of a mediocre white man.
+
+---
+
+# What is R?
+
+- Doesn't stand for anything
+- Language
+- "Environment" or system
+- First built for statistics
+- Install packages to extend R
+
+---
+
+# Why use R over other options?
+
+- Easy to install and keep updated
+- Language is easy to read
+- Great at building charts and graphs
+- **R has a fantastic community for women**
 
 ---
 class: inverse, center, middle
 
-# Get Started
+# Refresher
 
 ---
 
@@ -80,7 +170,7 @@ library(tidyverse)
 
 # Import new data via `read_csv()`
 
-```{r}
+```{r, message = FALSE}
 
 aff_housing <- read_csv("Affordable_Housing.csv")
 
@@ -134,6 +224,26 @@ deselect_example <- aff_housing %>%
 
 ---
 
+class: center, middle
+
+# The Pipe
+
+# `%>%`
+
+---
+
+# %>% means "and then"
+
+```{r, eval = FALSE}
+
+data_frame %>%
+  function(arguments)
+
+```
+
+
+---
+
 # Sort alphabetically
 
 Use `arrange()` to **arrange** columns in order.
@@ -160,7 +270,7 @@ descending_example <- aff_housing %>%
 
 Let's filter to just rows that are `"Completed 2015 to Date"`.
 
-We've lost 243 rows by filtering.
+We removed 243 rows by filtering.
 
 ```{r}
 
@@ -332,4 +442,13 @@ aff_housing_final %>%
 
 ```
 
+---
+# Get Help
 
+- I am now required to help you `r emo::ji("smile")`
+- R for Data Science Slack: rfordatascience.slack.com
+- R-Ladies Slack: rladies-community.slack.com
+
+
+---
+# Resources
