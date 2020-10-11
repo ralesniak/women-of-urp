@@ -30,12 +30,19 @@ style_mono_accent(
   )
 )
 
+hook_source <- knitr::knit_hooks$get('source')
+knitr::knit_hooks$set(source = function(x, options) {
+  x <- stringr::str_replace(x, "^[[:blank:]]?([^*].+?)[[:blank:]]*#<<[[:blank:]]*$", "*\\1")
+  hook_source(x, options)
+})
+
 ```
 
 # What is data science?
 
 #### *"Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge."* - R for Data Science
 
+#### Five steps to data science:
 1. Capture data
 2. Maintain data
 3. Process data
@@ -67,7 +74,7 @@ Analysts do steps four and five (analyze and communicate). *You are already doin
 - Code is read-able
     - read your code days, weeks, months later
     - check your work/someone else's work
-    - understand unfamiliar processes
+    - understand unfamiliar processes step-by-step
 - Code is share-able
     - put it on GitHub, someone can use your work
     - learn from others' work
@@ -88,20 +95,20 @@ Analysts do steps four and five (analyze and communicate). *You are already doin
 
 # Pep Talk
 
-- This is a skill you can tackle.
-- You do not need to be a genius to get it.
-- You do not need to struggle on your own.
-- Today, let's have the confidence of a mediocre white man.
+- This is a skill you can tackle
+- You do not need to be a genius to get it
+- You do not need to struggle on your own
+- Today, let's have the confidence of a mediocre white man
 
 ---
 
 # What is R?
 
 - Doesn't stand for anything
-- Language
-- "Environment" or system
+- It's a language
+- It's also an "environment" or system
 - First built for statistics
-- Install packages to extend R
+- Install packages to extend R (for example, these slides!)
 
 ---
 
@@ -144,9 +151,13 @@ class: inverse, center, middle
 
 **CHART**
 
+*But if we don't get all the way here, that's okay too*
+
 ---
 
 # Create a new project
+
+
 
 ---
 
@@ -207,7 +218,7 @@ Use `select()` to **select** the columns wanted.
 ```{r}
 
 aff_housing_2 <- aff_housing %>%
-  select(MAR_WARD, PROJECT_NAME, STATUS_PUBLIC, AFFORDABLE_UNITS_AT_0_30_AMI)
+  select(MAR_WARD, PROJECT_NAME, STATUS_PUBLIC, AFFORDABLE_UNITS_AT_0_30_AMI) #<<
 
 glimpse(aff_housing_2)
 
@@ -218,7 +229,7 @@ glimpse(aff_housing_2)
 ```{r}
 
 deselect_example <- aff_housing %>%
-  select(-GIS_LAST_MOD_DTTM)
+  select(-GIS_LAST_MOD_DTTM) #<<
 
 ```
 
@@ -251,7 +262,7 @@ Use `arrange()` to **arrange** columns in order.
 ```{r}
 
 aff_housing_3 <- aff_housing_2 %>%
-  arrange(PROJECT_NAME)
+  arrange(PROJECT_NAME) #<<
 
 head(aff_housing_3)
 
@@ -261,7 +272,7 @@ head(aff_housing_3)
 
 ```{r}
 descending_example <- aff_housing %>%
-  arrange(desc(PROJECT_NAME))
+  arrange(desc(PROJECT_NAME)) #<<
 ```
 
 ---
@@ -275,7 +286,7 @@ We removed 243 rows by filtering.
 ```{r}
 
 aff_housing_4 <- aff_housing_3 %>%
-  filter(STATUS_PUBLIC == "Completed 2015 to Date")
+  filter(STATUS_PUBLIC == "Completed 2015 to Date") #<<
 
 glimpse(aff_housing_4)
 
@@ -290,7 +301,7 @@ Let's get rid of the repetitive "Ward" label.
 ```{r}
 
 aff_housing_5 <- aff_housing_4 %>%
-  mutate(ward = str_sub(MAR_WARD, start = 6))
+  mutate(ward = str_sub(MAR_WARD, start = 6)) #<<
 
 glimpse(aff_housing_5)
 
@@ -300,8 +311,7 @@ glimpse(aff_housing_5)
 
 # Sum units by ward
 
-`group_by()` chooses the groups. `summarize()` creates one row per group. 
-`sum()` adds up all the values together.
+`group_by()` chooses the groups. `summarize()` creates one row per group. `sum()` adds up all the values together.
 
 ```{r, message = FALSE}
 
@@ -324,7 +334,7 @@ aff_housing_final
 aff_housing_final <- aff_housing_5 %>%
   group_by(ward) %>%
   summarize(aff_units_0_30 = sum(AFFORDABLE_UNITS_AT_0_30_AMI),
-            n_projects = n()) %>%
+            n_projects = n()) %>% #<<
   ungroup()
 
 aff_housing_final
@@ -341,7 +351,7 @@ aff_housing_final <- aff_housing_5 %>%
   group_by(ward) %>%
   summarize(aff_units_0_30 = sum(AFFORDABLE_UNITS_AT_0_30_AMI),
             n_projects = n(),
-            ratio = aff_units_0_30/n_projects) %>%
+            ratio = aff_units_0_30/n_projects) %>% #<<
   ungroup()
 
 aff_housing_final
@@ -380,7 +390,7 @@ Look at all themes here: https://ggplot2.tidyverse.org/reference/ggtheme.html
 
 ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
   geom_col() +
-  theme_classic(base_size = 20)
+  theme_classic(base_size = 20) #<<
 
 ```
 
@@ -404,12 +414,13 @@ ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
 
 # Arrange by most to least
 
-(If you get lost here, it's okay)
+- This is considered a best practice but is a little technical
+- If you get lost here, it's okay.
 
 ```{r, eval = FALSE}
 
 aff_housing_final %>%
-  mutate(ward = fct_reorder(ward, ratio, .desc = TRUE)) %>%
+  mutate(ward = fct_reorder(ward, ratio, .desc = TRUE)) %>% #<<
   ggplot(aes(x = ward, y = ratio)) +
   geom_col() +
   theme_classic(base_size = 20) +
@@ -446,9 +457,29 @@ aff_housing_final %>%
 # Get Help
 
 - I am now required to help you `r emo::ji("smile")`
-- R for Data Science Slack: rfordatascience.slack.com
 - R-Ladies Slack: rladies-community.slack.com
-
+- R for Data Science Slack: rfordatascience.slack.com
 
 ---
-# Resources
+
+## Learn More
+
+- R for Data Science book (free)
+    - <https://r4ds.had.co.nz/>
+- R for Reproducible Scientific Analysis (free)
+    - <https://swcarpentry.github.io/r-novice-gapminder/>
+- \#rstats on Twitter
+- Watch screencasts on YouTube
+    - <https://www.youtube.com/user/safe4democracy/videos>
+- Cheatsheets from RStudio (free reference)
+    - <https://www.rstudio.com/resources/cheatsheets/>
+    
+---
+
+## More packages to try out
+
+- `readxl` - import Excel files
+- `tidycensus` - quickly download Census data (love this)
+- `sf` - spatial analysis
+- `tigris` - quickly download TIGER shapefiles
+
