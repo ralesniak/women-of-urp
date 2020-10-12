@@ -149,7 +149,9 @@ class: inverse, center, middle
 
 # Goal for Lesson:
 
-**CHART**
+```{r, echo=FALSE, out.width="50%"}
+knitr::include_graphics("screenshots/final_chart.png")
+```
 
 *But if we don't get all the way here, that's okay too*
 
@@ -433,6 +435,23 @@ ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
 
 ---
 
+# Add a pretty color
+
+```{r, fig.height = 4.5, fig.width = 9}
+
+ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
+  geom_col(fill = "#3d405b") + #<<
+  theme_classic(base_size = 20) +
+  labs(title = "In affordable housing projects, Ward 8 has the highest concentration of 0 to 30% AMI units",
+       subtitle = "Ratio of 0 to 30% AMI units to projects in DC by ward",
+       x = "DC Ward",
+       y = NULL)
+
+```
+
+
+---
+
 # Arrange by most to least
 
 - This is considered a best practice but is a little technical
@@ -443,7 +462,7 @@ ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
 aff_housing_final %>%
   mutate(ward = fct_reorder(ward, ratio, .desc = TRUE)) %>% #<<
   ggplot(aes(x = ward, y = ratio)) +
-  geom_col() +
+  geom_col(fill = "#3d405b") + 
   theme_classic(base_size = 20) +
   labs(
     title = "In affordable housing projects, Ward 8 has the highest concentration of 0 to 30% AMI units",
@@ -463,7 +482,7 @@ aff_housing_final %>%
 aff_housing_final %>%
   mutate(ward = fct_reorder(ward, ratio, .desc = TRUE)) %>%
   ggplot(aes(x = ward, y = ratio)) +
-  geom_col() +
+  geom_col(fill = "#3d405b") + 
   theme_classic(base_size = 20) +
   labs(
     title = "In affordable housing projects, Ward 8 has the highest\nconcentration of 0 to 30% AMI units",
@@ -471,6 +490,8 @@ aff_housing_final %>%
     x = "DC Ward",
     y = NULL
   )
+
+ggsave("screenshots/final_chart.png")
 
 ```
 
