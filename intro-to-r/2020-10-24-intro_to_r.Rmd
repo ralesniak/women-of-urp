@@ -437,7 +437,7 @@ ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
 
 # Add a pretty color
 
-```{r, fig.height = 4.5, fig.width = 9}
+```{r, eval = FALSE, fig.height = 4.5, fig.width = 9}
 
 ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
   geom_col(fill = "#3d405b") + #<<
@@ -449,6 +449,24 @@ ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
 
 ```
 
+## Some inspiration:
+![](screenshots/pretty_colors.png)
+
+---
+
+# Add a pretty color result
+
+```{r, fig.height = 4.5, fig.width = 9}
+
+ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
+  geom_col(fill = "#3d405b") + #<<
+  theme_classic(base_size = 20) +
+  labs(title = "In affordable housing projects, Ward 8 has the highest concentration of 0 to 30% AMI units",
+       subtitle = "Ratio of 0 to 30% AMI units to projects in DC by ward",
+       x = "DC Ward",
+       y = NULL)
+
+```
 
 ---
 
