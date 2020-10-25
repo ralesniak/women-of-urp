@@ -38,11 +38,19 @@ knitr::knit_hooks$set(source = function(x, options) {
 
 ```
 
+# Introductions
+
+- Are you a current student or an alum?
+- What data analysis tools are you most comfortable with?
+- What kinds of data or types of analysis do you like to do (or, what do you not like to do)?
+
+---
+
 # What is data science?
 
-#### *"Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge."* - R for Data Science
+*"Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge."* - R for Data Science
 
-#### Five steps to data science:
+### Five steps to data science:
 1. Capture data
 2. Maintain data
 3. Process data
@@ -85,10 +93,13 @@ Analysts do steps four and five (analyze and communicate). *You are already doin
 
 # Why on earth would we use this for planning?
 
-- You are around more data than you think
+- Planners have so much data to organize!
+    - Demographic data
+    - Existing conditions data
+    - Survey data
 - Speed up repetitive processes
     - Received 112 Excel files all at once
-- Spreadsheets have limitations
+- Excel analyses have limitations
 - Not all data lives in spreadsheets
 
 ---
@@ -165,7 +176,7 @@ knitr::include_graphics("screenshots/final_chart.png")
 
 ---
 
-# Download data and put in project
+# Download data and put in project folder
 
 Source: https://opendata.dc.gov/datasets/affordable-housing
 
@@ -382,6 +393,36 @@ aff_housing_final
 ```
 
 ---
+
+# Review (what did we just do?)
+
+- Input data
+
+--
+- `select()` columns we wanted
+
+--
+- Learned about the pipe `%>%`
+
+--
+- `arrange()` alphabetically
+
+--
+- `filter()` to "Completed 2016 to Date"
+
+--
+- `mutate()` to create new column with Ward number
+
+--
+- `group_by()`, `summarize()`, and `sum()` to add values together
+
+--
+- `n()` to count the number of rows (projects)
+
+--
+- Divided sum by projects to find a ratio.
+
+---
 class: inverse, center, middle
 
 # 10-minute break
@@ -392,11 +433,9 @@ class: inverse, center, middle
 
 # Create a column (or bar) chart
 
-{ggplot2} is the package inside {tidyverse}. It uses `+` instead of `%>%`, but they mean the same thing.
+{ggplot2} is the package inside {tidyverse}. It uses `+` instead of `%>%`, but they mean the same thing. ggplot needs three things: data, aesthetics (`aes`), and a geom (`geom_x`). Here we've used `geom_col()` to make a column chart.
 
-ggplot needs three things: data, aesthetics (`aes`), and a geom (`geom_x`). Here we've used `geom_col()` to make a column chart.
-
-```{r, fig.height = 5}
+```{r, fig.height = 4.5}
 
 ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
   geom_col()
@@ -419,7 +458,7 @@ ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
 
 ---
 
-# Add a title and subtitle
+# Change the title, subtitle, and axes titles
 
 ```{r, fig.height = 4.5, fig.width = 9}
 
@@ -440,7 +479,7 @@ ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
 ```{r, eval = FALSE, fig.height = 4.5, fig.width = 9}
 
 ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
-  geom_col(fill = "#3d405b") + #<<
+  geom_col(fill = "#9A031E") + #<<
   theme_classic(base_size = 20) +
   labs(title = "In affordable housing projects, Ward 8 has the highest concentration of 0 to 30% AMI units",
        subtitle = "Ratio of 0 to 30% AMI units to projects in DC by ward",
@@ -459,7 +498,7 @@ ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
 ```{r, fig.height = 4.5, fig.width = 9}
 
 ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
-  geom_col(fill = "#3d405b") + #<<
+  geom_col(fill = "#9A031E") + #<<
   theme_classic(base_size = 20) +
   labs(title = "In affordable housing projects, Ward 8 has the highest concentration of 0 to 30% AMI units",
        subtitle = "Ratio of 0 to 30% AMI units to projects in DC by ward",
@@ -480,7 +519,7 @@ ggplot(aff_housing_final, aes(x = ward, y = ratio)) +
 aff_housing_final %>%
   mutate(ward = fct_reorder(ward, ratio, .desc = TRUE)) %>% #<<
   ggplot(aes(x = ward, y = ratio)) +
-  geom_col(fill = "#3d405b") + 
+  geom_col(fill = "#9A031E") + 
   theme_classic(base_size = 20) +
   labs(
     title = "In affordable housing projects, Ward 8 has the highest concentration of 0 to 30% AMI units",
@@ -500,7 +539,7 @@ aff_housing_final %>%
 aff_housing_final %>%
   mutate(ward = fct_reorder(ward, ratio, .desc = TRUE)) %>%
   ggplot(aes(x = ward, y = ratio)) +
-  geom_col(fill = "#3d405b") + 
+  geom_col(fill = "#9A031E") +
   theme_classic(base_size = 20) +
   labs(
     title = "In affordable housing projects, Ward 8 has the highest\nconcentration of 0 to 30% AMI units",
@@ -514,6 +553,30 @@ ggsave("screenshots/final_chart.png")
 ```
 
 ---
+
+# Review (what did we just do?)
+
+
+- Created a column chart using `ggplot() + geom_col()`
+
+--
+- Added a theme using `theme_x()`
+
+--
+- Changed the title, subtitle, and axes titles using `labs()`
+
+--
+- Changed the color of the bars using `geom_col(fill = "#11111")`
+
+--
+- Arranged the data by most to least using `fct_reorder()`
+
+---
+class: inverse, center, middle
+
+# Resources
+
+---
 # Get Help
 
 - I am now required to help you `r emo::ji("smile")`
@@ -522,24 +585,30 @@ ggsave("screenshots/final_chart.png")
 
 ---
 
-## Learn More
+## Learn More for Free!
 
-- R for Data Science book (free)
+- R for Data Science book
     - <https://r4ds.had.co.nz/>
-- R for Reproducible Scientific Analysis (free)
+- R for Reproducible Scientific Analysis
     - <https://swcarpentry.github.io/r-novice-gapminder/>
 - \#rstats on Twitter
 - Watch screencasts on YouTube
     - <https://www.youtube.com/user/safe4democracy/videos>
-- Cheatsheets from RStudio (free reference)
+- Cheatsheets from RStudio
     - <https://www.rstudio.com/resources/cheatsheets/>
     
 ---
 
 ## More packages to try out
 
-- `readxl` - import Excel files
-- `tidycensus` - quickly download Census data (love this)
+- `readxl` - read/import Excel files
+- `writexl` - write/export Excel files
+- `janitor` - helps clean up messy column names and data types
+- `lubridate` - use dates and times
+- `stringr` - use strings (text) (part of `tidyverse`)
 - `sf` - spatial analysis
+- `tidycensus` - quickly download Census data (love this)
 - `tigris` - quickly download TIGER shapefiles
+- `tidytransit` - bring in transit GTFS feeds
+
 
