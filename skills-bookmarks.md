@@ -1,42 +1,43 @@
-# Data & R - Resources and Bookmarks
+# Data Science and Analysis - Resources and Bookmarks
 <i>With a little bit of transit and urban planning sprinkled in</i>
 
-## General
-<ul>
-<li> <A HREF="https://docs.google.com/presentation/d/12ZtdhKdS4_A0F20KstnwjPtKybyu0UkhKAgl8qKB3c4/edit#slide=id.g4d0e51641f_3_0"  >Which coding language should I learn?</A>
-<li> <A Href="https://www.anotherbookondatascience.com/">Another Book on Data Science</a> - <i>learning R and Python in tandem so you don't have to choose!</i>
-<li><A HREF="https://tabula.technology/"  >Tabula: Extract Tables from PDFs</A>
-<li><A HREF="https://bookbook.pubpub.org/data-feminism"  >Data Feminism</A>
-<li><A HREF="https://censusreporter.org/"  >Census Reporter</A>
-<li><A HREF="https://medium.com/postzen" >Mapzen Archive</A>
-<li> <A HREF="https://datajournalism.com/read/longreads/putting-data-back-into-context"  >Putting data back into context </A>
-<li> <A HREF="https://www.tandfonline.com/doi/abs/10.1080/10618600.2017.1384734"  >50 Years of Data Science</A>
-<li> <A HREF="https://www.littlemissdata.com/blog/technical-tutorials"  >Create Easy to Follow Technical Tutorials</A>
-<li> <A HREF="https://crumplab.github.io/statistics/" >Answering questions with data</A>
-<li><A HREF="https://www.bigskyassociates.com/blog/bid/372186/The-Data-Analysis-Process-5-Steps-To-Better-Decision-Making"  >The Data Analysis Process: 5 Steps To Better Decision Making</A>
-<li><A HREF="https://medium.com/@Randy_Au/be-yourself-the-data-scientists-you-see-in-public-are-not-representative-9de29f3316bf" >Be Yourself: The Data Scientists You See In Public Are Not Representative</A>
-<li><A HREF="https://www.fast.ai/2020/01/07/data-questionnaire/" >Data project checklist · fast.ai</A>
-<li><A HREF="https://www.geckoboard.com/learn/data-literacy/" >Data Literacy Resources | Geckoboard</A>
-<li><A HREF="https://www.geckoboard.com/learn/data-literacy/statistical-fallacies/" >Common Data Mistakes to Avoid | Geckoboard</A>
-<li><A HREF="https://peerj.com/preprints/3210/"  >Opinionated analysis development [PeerJ Preprints]</A>
-</ul>
+<b>Bold</b> entries are highly recommended
 
-#### Data Accuracy
+## Philosophy and Workflow
 <ul>
-<li> <A HREF="https://www.analyticsvidhya.com/blog/2013/12/paranoid-data-accuracy-about/"  >Framework To Check Accuracy Of Your Datasets</A>
+<li><A HREF="https://medium.com/@Randy_Au/be-yourself-the-data-scientists-you-see-in-public-are-not-representative-9de29f3316bf" >Be Yourself: The Data Scientists You See In Public Are Not Representative</A>
+<li><A HREF="https://mitpress.mit.edu/books/data-feminism"  >Data Feminism</A>
+<li><A HREF="https://datajournalism.com/read/longreads/putting-data-back-into-context">Putting data back into context </A>
+<li><A HREF="https://www.geckoboard.com/learn/data-literacy/statistical-fallacies/" >Common Data Mistakes to Avoid</A>
+<li> <A HREF="https://www.analyticsvidhya.com/blog/2013/12/paranoid-data-accuracy-about/"  >Framework To Check Accuracy of Your Datasets</A>
 <li> <A HREF="http://www.gregreda.com/2014/03/23/principles-of-good-data-analysis/" >Principles of good data analysis</A>
 <li> <A HREF="http://rex-analytics.com/data-analysis-questions-to-ask-the-first-time/" >Data Analysis: Questions to Ask the First Times</A>
 <li> <A HREF="https://towardsdatascience.com/check-your-assumptions-about-your-data-20be250c143"  >Check your assumptions about your data</A>
+<li><A HREF="https://peerj.com/preprints/3210/"  >Opinionated analysis development</A> - <i>it's more than the math!</i>
 </ul>
+
+## Non-Code Tools
+<ul>
+<li><A HREF="https://tabula.technology/"  >Tabula: Extract Tables from PDFs</A>
+<li><A HREF="https://censusreporter.org/"  >Census Reporter</A>
+</ul>
+
+## General
+<ul>
+<li> <A HREF="https://docs.google.com/presentation/d/12ZtdhKdS4_A0F20KstnwjPtKybyu0UkhKAgl8qKB3c4/"  >Which coding language should I learn?</A>
+<li> <A Href="https://www.anotherbookondatascience.com/">Another Book on Data Science</a> - <i>learning R and Python in tandem so you don't have to choose!</i>
+<li> <A HREF="https://www.littlemissdata.com/blog/technical-tutorials"  >Create Easy to Follow Technical Tutorials</A>
+</ul>
+
 
 #### Spreadsheets
 <ul>
-<li><A HREF="https://peerj.com/preprints/3183/"  >Data organization in spreadsheets</A>
+<li><A HREF="https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989"  >Data organization in spreadsheets</A>
 <li><A HREF="https://datacarpentry.org/spreadsheet-ecology-lesson/"  >Data Carpentry: Data Organization in Spreadsheets</A>
 <li><A HREF="https://www.benlcollins.com/spreadsheets/data-best-practices/"  >18 Best Practices for Working with Data in Google Sheets</A>
 <li><A HREF="https://matthewlincoln.net/2018/03/26/best-practices-for-using-google-sheets-in-your-data-project.html"  >Best Practices for Using Google Sheets in Your Data Project</A>
- <li><a HREF="https://blog.datawrapper.de/prepare-and-clean-up-data-for-data-visualization/">Prepare your data for visualization</a>
-   <li> <a href="https://nacnudus.github.io/spreadsheet-munging-strategies/index.html">Spreadsheet Munging Strategies</a>
+ <li><a HREF="https://blog.datawrapper.de/prepare-and-clean-up-data-for-data-visualization/">How to prepare your data for analysis and charting in Excel & Google Sheets</a>
+   <li> <a href="https://nacnudus.github.io/spreadsheet-munging-strategies/index.html">Spreadsheet Munging Strategies in R</a> - <i>for your messiest tables</i>
 </ul>
 
 #### Datasets to use
@@ -47,18 +48,24 @@
 </ul>
 
 ## R/Statistics
+<ul>
+<li><A HREF="https://www.bigbookofr.com/" >Big Book of R</A> - <i>if this resource list isn't enough, this will help!</i>
+</ul>
 
 #### Basics
 <ul>
-<li> <A HREF="https://rfortherestofus.com/courses/getting-started/"  >Getting Started with R - R for the Rest of Us</A>
-<li> <A HREF="https://github.com/saghirb/Getting-Started-in-R" > An 8 page guide to starting with R</A>
-<li> <A HREF="http://r4ds.had.co.nz/" >R for Data Science book</A> - <i>the R Bible</i>
-<li> <A HREF="https://www.rstudio.com/resources/cheatsheets/" >R Package Cheatsheets</A>
+<b><li> <A HREF="https://rfortherestofus.com/courses/getting-started/"  >R for the Rest of Us: Getting Started with R</A> - <i>helps with installation and the very first steps</i></b>
+<b><li> <A HREF="http://stat545.com/"  >STAT545: Data wrangling, exploration, and analysis with R</A></b>
+<li> <A HREF="http://r4ds.had.co.nz/" >R for Data Science book</A>
+<li><A HREF="https://rc2e.com/index.html" >R Cookbook</A> - <i>Getting started and how-to "recipes"</i>
+<li> <A HREF="https://rpubs.com/davoodastaraky/lubridate" >Working with Dates and Times with lubridate in R</A>
 <li> <A HREF="http://style.tidyverse.org/" >tidyverse style guide</A>
-<li> <A HREF="http://stat545.com/"  >STAT545: Data wrangling, exploration, and analysis with R</A>
-<li> <A HREF="https://rpubs.com/davoodastaraky/lubridate"  I>Working with Dates and Times with lubridate in R</A>
-<li> <A HREF="https://speakerdeck.com/yutannihilation/a-graphical-introduction-to-tidyrs-pivot-star"  >A Graphical Introduction to tidyr&#39;s pivot_*()</A>
-<li><A HREF="https://www.bigbookofr.com/" >Big Book of R</A>
+</ul>
+
+#### Getting Help
+<ul>
+<li> <A HREF="https://speakerdeck.com/jennybc/reprex-reproducible-examples-with-r">Reproducible examples (reprex)</a>
+<li> <A HREF="https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example"  >How to make a great R reproducible example</A>
 </ul>
 
 #### Paid Tools to Learn
@@ -69,36 +76,31 @@ I personally found a lot of value paying for a program that systematically taugh
 <li> Coursera: <a href="https://www.coursera.org/specializations/statistics">Statistics with R Specialization</a>
 </ul>
 
-#### Workflow/Philosophy
+#### Philosophy and Workflow (R specific)
 <ul>
-<li> <A HREF="https://www.tidyverse.org/articles/2017/12/workflow-vs-script/"  >Project-oriented workflow</A>
 <li> <A HREF="https://whattheyforgot.org/" >What They Forgot to Teach You About R</A>
-<li> <A HREF="https://mtlynch.io/human-code-reviews-2/#aim-to-bring-the-code-up-a-letter-grade-or-two"  >How to Do Code Reviews Like a Human</A>
-<li> <A HREF="https://speakerdeck.com/jennybc/reprex-reproducible-examples-with-r">Reproducible examples</a>
-<li> <A HREF="https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example"  >How to make a great R reproducible example</A>
- <li> <a href="https://katherinemwood.github.io/post/testthat/">Intro to Unit Testing</a>
-<li> <A HREF="https://towardsdatascience.com/unit-testing-in-r-68ab9cc8d211"  >Unit Testing in R</A>
- <li> <a href="https://resources.rstudio.com/rstudio-conf-2020/technical-debt-is-a-social-problem-gordon-shotwell-2">Technical Debt is a Social Problem, OR Be Communicative and Considerate with your Data Product</a>
+<li> <A HREF="https://www.tidyverse.org/articles/2017/12/workflow-vs-script/"  >Project-oriented workflow</A>
+<li><A HREF="https://malco.io/2018/11/05/why-should-i-use-the-here-package-when-i-m-already-using-projects/" >Using the {here} package</A>
 <li> <a href="https://happygitwithr.com/">Happy Git with R</a>
-<li> <A HREF="https://www.manning.com/books/git-in-practice" >Git in Practice</A>
- <li> <a href="https://github.com/msberends/cleaner">Package `cleaner`</a> - <i>formerly `clean`</i>
-
-  <li><A HREF="https://rc2e.com/index.html" >R Cookbook, 2nd Edition</A>
-  <li><A HREF="https://medium.com/aclu-tech-analytics/flexible-reproducibility-in-data-workflows-6505c515054a" >Flexible reproducibility in data workflows - ACLU Tech &amp; Analytics - Medium</A>
-<li><A HREF="https://malco.io/2018/11/05/why-should-i-use-the-here-package-when-i-m-already-using-projects/" >Why should I use the here package when I&#39;m already using projects? | Malcolm Barrett</A>
-<li><A HREF="https://mathewanalytics.com/logging-in-r-why-when-and-how/"  >Logging in R: Why, When, and How – Mathew Analytics</A>
-<li><A HREF="https://www.onceupondata.com/2020/01/18/data-projects-workflows/?utm_content=buffer668d1&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer" >A Journey into a Team&#39;s Workflows</A>
-<li><A HREF="https://shubheksha.com/posts/2019/03/how-to-start-reviewing-code/"  >How To Start Reviewing Code :: ✨Shubheksha Jalan✨</A>
+<li><A HREF="https://mathewanalytics.com/logging-in-r-why-when-and-how/"  >Logging in R: Why, When, and How</A>
+</ul>
+##### Workflows as a team
+<ul>
+<li><A HREF="https://www.onceupondata.com/2020/01/18/data-projects-workflows/" >Helping others move towards better workflows</A>
+<li><A HREF="https://shubheksha.com/posts/2019/03/how-to-start-reviewing-code/"  >How To Start Reviewing Code</A>
+<li> <A HREF="https://mtlynch.io/human-code-reviews-2/#aim-to-bring-the-code-up-a-letter-grade-or-two"  >How to Do Code Reviews Like a Human</A>
+ <li> <a href="https://resources.rstudio.com/rstudio-conf-2020/technical-debt-is-a-social-problem-gordon-shotwell-2">Be Communicative and Considerate with your Data Product</a>
 </ul>
 
 #### Tips and Tricks
 <ul>
-<li><A HREF="https://sharla.party/post/comparing-two-dfs/"  >comparing two data frames: one #rstats, many ways! | Sharla Gelfand</A>
-<li><A HREF="https://ihateregex.io/"  >i Hate Regex - The Regex Cheat Sheet</A>
-<li><A HREF="https://regexr.com/"  >RegExr: Learn, Build, &amp; Test RegEx</A>
-<li><A HREF="https://regex101.com/"  >Online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript</A>
-<li><A HREF="https://www.amelia.mn/Syntax-cheatsheet.pdf" >Syntax-cheatsheet.key</A>
-
+<li><b><A HREF="https://www.rstudio.com/resources/cheatsheets/" >R Package Cheatsheets</A></b>
+<li><b><a href="https://github.com/sfirke/janitor">`{janitor}` package</a></b>
+<li> <a href="https://github.com/msberends/cleaner">`{cleaner}` package</a>
+<li> <A HREF="https://speakerdeck.com/yutannihilation/a-graphical-introduction-to-tidyrs-pivot-star"  >A Graphical Introduction to tidyr&#39;s pivot_*()</A>
+<li><A HREF="https://sharla.party/post/comparing-two-dfs/"  >Comparing two data frames</A>
+<li><A HREF="https://ihateregex.io/"  >i Hate Regex - The Regex Cheat Sheet</A> - <i>helps for the logic but needs translating into the POSIX flavor of regex</i>
+<li><A HREF="https://www.amelia.mn/Syntax-cheatsheet.pdf" >Syntax Cheatsheet</A>
 </ul>
 
 #### Data Viz
@@ -168,6 +170,8 @@ I personally found a lot of value paying for a program that systematically taugh
 <li><A HREF="https://www.pipinghotdata.com/posts/2020-10-25-your-first-r-package-in-1-hour/" >PIPING HOT DATA: Your first R package in 1 hour</A>
 <li><A HREF="https://aosmith.rbind.io/2020/08/31/handling-errors/" >Handling errors using purrr&#39;s possibly() and safely()</A>
 <li><A HREF="https://stackoverflow.com/questions/12193779/how-to-write-trycatch-in-r"  >exception - How to write trycatch in R - Stack Overflow</A>
+ <li> <a href="https://katherinemwood.github.io/post/unittesting/">Intro to Unit Testing</a>
+<li> <A HREF="https://towardsdatascience.com/unit-testing-in-r-68ab9cc8d211"  >Unit Testing in R</A>
 </ul>
 
 #### Statistics and Machine Learning
@@ -191,6 +195,7 @@ I personally found a lot of value paying for a program that systematically taugh
 <li><A HREF="https://www.mihiretukebede.com/posts/2020-09-30-2020-09-30-plotting-model-coefficients-in-a-forest-plot/" >Aspire Data Solutions: Plotting regression model coefficients in a forest plot</A
 <li><A HREF="https://github.com/eriklindernoren/ML-From-Scratch"  >eriklindernoren/ML-From-Scratch: Machine Learning From Scratch</A>
 <li><A HREF="https://decision.substack.com/p/statistics-the-complete-mini-course"  >Statistics: The Complete Mini-Course - Decision Intelligence</A>
+<li> <A HREF="https://crumplab.github.io/statistics/" >Answering questions with data</A>
 </ul>
 
 #### Text and Text Analysis
@@ -339,6 +344,9 @@ I personally found a lot of value paying for a program that systematically taugh
 <li><A HREF="https://towardsdatascience.com/data-sciences-most-misunderstood-hero-2705da366f40"  >Data Science’s Most Misunderstood Hero | by Cassie Kozyrkov | Towards Data Science</A>
 <li><A HREF="https://towardsdatascience.com/which-flavor-of-data-professional-are-you-5e01375584ce"  >Which flavor of data professional are you? | by Cassie Kozyrkov | Towards Data Science</A>
 <li><A HREF="https://towardsdatascience.com/prioritizing-data-science-work-936b3765fd45"  >Prioritizing data science work. A method of choosing between many… | by Jacqueline Nolis | Towards Data Science</A>
+<li><A HREF="https://www.fast.ai/2020/01/07/data-questionnaire/" >Data project checklist</A>
+
+
 </ul>
 
 ## Transit Data and Resources
