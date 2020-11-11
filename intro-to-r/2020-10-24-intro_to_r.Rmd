@@ -554,6 +554,16 @@ ggsave("screenshots/final_chart.png")
 
 ---
 
+# Save your chart
+
+`ggsave()` saves charts to .PNG. It defaults to your last exported chart. 
+
+```{r, eval = FALSE}
+ggsave("my_chart.png")
+```
+
+---
+
 # Review (what did we just do?)
 
 
@@ -570,6 +580,9 @@ ggsave("screenshots/final_chart.png")
 
 --
 - Arranged the data by most to least using `fct_reorder()`
+
+--
+- Saved the chart as a .PNG using `ggsave()`
 
 ---
 class: inverse, center, middle
